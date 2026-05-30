@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamesan App - Privacy Policy</title>
+    <meta name="description" content="Privacy policy for Kamesan App.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --page-bg: #e8f6ff;
+            --ink: #09324b;
+            --ink-muted: #2d5f78;
+            --surface-border: #d7edf7;
+            --accent: #0083c7;
+            --accent-strong: #005f99;
+            --shadow: 0 14px 36px #0e4d6e22;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            color: var(--ink);
+            background: radial-gradient(circle at 12% 0%, #d6f1ff 0%, #e8f6ff 30%),
+                        radial-gradient(circle at 84% 24%, #bce7f2 0%, #dff3fb00 36%),
+                        linear-gradient(160deg, #eaf8ff 0%, #d8eff8 100%);
+            font-family: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN",
+                "Segoe UI", "Noto Sans", "Noto Sans JP", "Noto Sans SC", "Noto Sans TC",
+                "Noto Sans KR", "Noto Sans Arabic", "Noto Sans Devanagari", "Noto Sans Thai",
+                Meiryo, system-ui, -apple-system, sans-serif;
+            min-height: 100vh;
+            line-height: 1.7;
+        }
+
+        html[dir="rtl"] body {
+            text-align: right;
+        }
+
+        .page {
+            width: min(1120px, 92vw);
+            margin: 0 auto;
+            padding: 34px 0 42px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .shape {
+            position: fixed;
+            pointer-events: none;
+            border-radius: 999px;
+            filter: blur(18px);
+            opacity: 0.5;
+            z-index: 1;
+        }
+
+        .shape-a {
+            top: -70px;
+            right: -100px;
+            width: 300px;
+            height: 300px;
+            background: #74c6ea;
+        }
+
+        .shape-b {
+            bottom: 36px;
+            left: -120px;
+            width: 260px;
+            height: 260px;
+            background: #98dde0;
+        }
+
+        .hero {
+            padding: 38px clamp(18px, 3vw, 44px);
+            border: 1px solid var(--surface-border);
+            border-radius: 26px;
+            background: linear-gradient(150deg, #fafdff 8%, #dff3fb 90%);
+            box-shadow: var(--shadow);
+        }
+
+        .hero-top {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            margin: 0;
+            font-family: "Space Grotesk", sans-serif;
+            font-size: clamp(1.7rem, 4.8vw, 2.8rem);
+            letter-spacing: 0.03em;
+        }
+
+        .home-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 14px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 700;
+            background: linear-gradient(100deg, var(--accent), var(--accent-strong));
+            transition: transform 0.2s ease, filter 0.2s ease;
+        }
+
+        .home-link:hover {
+            transform: translateY(-1px);
+            filter: brightness(1.06);
+        }
+
+        .hero-meta {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px 16px;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .lang-switch {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            border-radius: 999px;
+            border: 1px solid #b7dceb;
+            background: #eaf8ff;
+            padding: 6px 8px 6px 16px;
+        }
+
+        .lang-switch-label {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--ink-muted);
+            letter-spacing: 0.02em;
+        }
+
+        .lang-select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            border: none;
+            background: var(--accent);
+            color: #fff;
+            border-radius: 999px;
+            padding: 10px 36px 10px 16px;
+            font-size: 0.96rem;
+            font-weight: 700;
+            font-family: inherit;
+            cursor: pointer;
+            box-shadow: 0 8px 16px #007abf40;
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='white'><path d='M6 8L0 0h12z'/></svg>");
+            background-repeat: no-repeat;
+            background-position: right 14px center;
+            background-size: 10px 7px;
+            transition: filter 0.2s ease;
+        }
+
+        .lang-select:hover {
+            filter: brightness(1.06);
+        }
+
+        .lang-select:focus-visible {
+            outline: 2px solid #ffffff;
+            outline-offset: 2px;
+        }
+
+        .lang-select option {
+            color: #09324b;
+            background: #ffffff;
+        }
+
+        html[dir="rtl"] .lang-select {
+            padding: 10px 16px 10px 36px;
+            background-position: left 14px center;
+        }
+
+        .document {
+            margin-top: 26px;
+            padding: clamp(20px, 2.8vw, 34px);
+            border: 1px solid var(--surface-border);
+            border-radius: 24px;
+            background: #f9fdffeb;
+            box-shadow: var(--shadow);
+        }
+
+        .intro {
+            margin: 0;
+            color: var(--ink-muted);
+            font-size: 1rem;
+            white-space: pre-line;
+        }
+
+        .policy-list {
+            margin-top: 18px;
+        }
+
+        .policy-item {
+            padding: 20px 0;
+            border-top: 1px solid #cae6f3;
+        }
+
+        .policy-item:first-child {
+            border-top: none;
+            padding-top: 10px;
+        }
+
+        .policy-title {
+            margin: 0;
+            font-size: 1.1rem;
+            letter-spacing: 0.01em;
+        }
+
+        .policy-text {
+            margin: 10px 0 0;
+            color: var(--ink-muted);
+            font-size: 0.97rem;
+            white-space: pre-line;
+        }
+
+        .contact-block {
+            margin-top: 6px;
+            padding-top: 22px;
+            border-top: 1px solid #b7dceb;
+        }
+
+        .contact-address {
+            margin-top: 12px;
+            display: inline-block;
+            padding: 10px 12px;
+            border: 1px solid #b7dceb;
+            border-radius: 10px;
+            background: #f2faff;
+            color: #0e4f73;
+            font-family: "Space Grotesk", "Zen Kaku Gothic New", sans-serif;
+            font-size: 0.95rem;
+        }
+
+        .site-footer {
+            width: min(1120px, 92vw);
+            margin: 0 auto 30px;
+            padding: 14px 18px 0;
+            color: #2b6079;
+        }
+
+        .footer-mail {
+            color: #005b91;
+            font-weight: 700;
+        }
+
+        .copyright {
+            margin: 12px 0 0;
+            font-size: 0.84rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                border-radius: 20px;
+                padding-top: 28px;
+            }
+
+            .document {
+                margin-top: 18px;
+                border-radius: 20px;
+            }
+
+            .hero-meta {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="shape shape-a"></div>
+<div class="shape shape-b"></div>
+
+<main class="page">
+    <section class="hero">
+        <div class="hero-top">
+            <h1 class="brand" id="page-title"></h1>
+            <a class="home-link" href="index.html" id="home-link"></a>
+        </div>
+        <div class="hero-meta">
+            <div class="lang-switch">
+                <label class="lang-switch-label" for="lang-select" id="lang-switch-label"></label>
+                <select id="lang-select" class="lang-select" aria-label="Language"></select>
+            </div>
+        </div>
+    </section>
+
+    <section class="document" aria-live="polite">
+        <p class="intro" id="intro"></p>
+        <div class="policy-list" id="policy-list"></div>
+
+        <div class="contact-block">
+            <h2 class="policy-title" id="contact-title"></h2>
+            <p class="policy-text" id="contact-text"></p>
+            <p class="contact-address" id="contact-address"></p>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <span class="footer-mail">ike147359 [at] yahoo.co.jp</span>
+    <p class="copyright">Copyright &copy; 2017 Kamesan App</p>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="privacy-policy-i18n.js"></script>
+<script>
+    const STORAGE_KEY = "kamesan_language";
+    const FALLBACK_LANG = "en";
+    const SUPPORTED = new Set(LANGUAGES.map((l) => l.code));
+
+    function escapeHtml(str) {
+        return String(str).replace(/[&<>\"']/g, (c) => ({
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            "\"": "&quot;",
+            "'": "&#39;"
+        }[c]));
+    }
+
+    function normalizeBrowserLanguage(raw) {
+        if (!raw) return FALLBACK_LANG;
+        const lower = raw.toLowerCase();
+
+        if (lower === "zh-cn" || lower === "zh-hans" || lower.startsWith("zh-hans") || lower === "zh-sg") return "zh-CN";
+        if (lower === "zh-tw" || lower === "zh-hk" || lower === "zh-hant" || lower.startsWith("zh-hant")) return "zh-TW";
+        if (lower.startsWith("zh")) return "zh-CN";
+        if (lower === "pt-br" || lower.startsWith("pt-br")) return "pt-BR";
+        if (lower.startsWith("pt")) return "pt-BR";
+        if (lower === "es-es" || lower.startsWith("es-es")) return "es-ES";
+        if (lower.startsWith("es")) return "es-419";
+
+        const base = lower.split("-")[0];
+        const map = {
+            en: "en", de: "de", fr: "fr", id: "id", in: "id", ja: "ja", ko: "ko",
+            it: "it", pl: "pl", ru: "ru", hi: "hi", tr: "tr", ar: "ar",
+            nl: "nl", vi: "vi", th: "th"
+        };
+        return map[base] || FALLBACK_LANG;
+    }
+
+    function getInitialLanguage() {
+        const stored = localStorage.getItem(STORAGE_KEY);
+        if (stored && SUPPORTED.has(stored)) return stored;
+
+        const candidates = (navigator.languages && navigator.languages.length)
+            ? navigator.languages
+            : [navigator.language || ""];
+        for (const candidate of candidates) {
+            const normalized = normalizeBrowserLanguage(candidate);
+            if (SUPPORTED.has(normalized)) return normalized;
+        }
+        return FALLBACK_LANG;
+    }
+
+    function populateLanguageSelect() {
+        const select = document.getElementById("lang-select");
+        select.innerHTML = LANGUAGES.map((language) =>
+            `<option value="${language.code}">${escapeHtml(language.label)}</option>`
+        ).join("");
+    }
+
+    function setLanguage(selectedLanguage) {
+        const language = SUPPORTED.has(selectedLanguage) ? selectedLanguage : FALLBACK_LANG;
+        const uiWords = TEXT[language] || TEXT[FALLBACK_LANG];
+        const words = POLICY_TEXT[language] || POLICY_TEXT[FALLBACK_LANG];
+        const isRtl = RTL_LANGUAGES.has(language);
+
+        document.documentElement.lang = language;
+        document.documentElement.dir = isRtl ? "rtl" : "ltr";
+        document.title = `Kamesan App - ${uiWords.privacyTitle}`;
+        document.querySelector('meta[name="description"]').setAttribute("content", `${uiWords.privacyTitle} - Kamesan App`);
+        document.getElementById("page-title").textContent = uiWords.privacyTitle;
+        document.getElementById("home-link").textContent = uiWords.appsTitle;
+        document.getElementById("intro").textContent = words.intro;
+        document.getElementById("contact-title").textContent = words.contactTitle;
+        document.getElementById("contact-text").textContent = words.contactText;
+        document.getElementById("contact-address").textContent = CONTACT_ADDRESS;
+        document.getElementById("lang-switch-label").textContent = uiWords.languageLabel;
+        document.querySelector(".footer-mail").setAttribute("aria-label", uiWords.mailAria);
+
+        const list = document.getElementById("policy-list");
+        list.innerHTML = words.policyItems.map((item) => `
+            <section class="policy-item">
+                <h2 class="policy-title">${escapeHtml(item.title)}</h2>
+                <p class="policy-text">${escapeHtml(item.text)}</p>
+            </section>
+        `).join("");
+
+        const select = document.getElementById("lang-select");
+        select.setAttribute("aria-label", uiWords.languageLabel);
+        if (select.value !== language) select.value = language;
+
+        localStorage.setItem(STORAGE_KEY, language);
+    }
+
+    populateLanguageSelect();
+    document.getElementById("lang-select").addEventListener("change", (event) => {
+        setLanguage(event.target.value);
+    });
+
+    setLanguage(getInitialLanguage());
+</script>
+</body>
+
+</html>

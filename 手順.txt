@@ -1,0 +1,33 @@
+■exe起動
+
+
+■長時間利用していないと使えなくなるのでログインしなおし。(ブラウザでgoogleアカウントにログイン。)
+firebase logout
+firebase login
+
+
+■プロジェクト指定
+プロジェクト指定は初回だけなので基本今後は指定不要。
+		firebase init hosting
+
+		>Are you ready to proceed? Yes
+		>Please select an option: Use an existing project
+		>? Select a default Firebase project for this directory: kamesanapp (kamesanapp)
+
+		Enter Enter Enter Enter Enter Enter Enter Enter
+
+
+■ファイル置き場
+C:\D\apk\002_firebase\public
+
+■本番反映
+firebase deploy --only hosting
+
+■URL
+https://kamesanapp.web.app/
+
+https://kamesanapp.web.app/app-ads.txt
+
+https://kamesanapp.web.app/privacypolicy.html
+
+
