@@ -360,6 +360,20 @@ const TEXT = {
  */
 const APPS = [
     {
+        icon: "icon/gomihub.png",
+        url: "https://play.google.com/store/apps/details?id=jp.gomihub",
+        isNew: true,
+        visibleLanguages: ["ja"],
+        officialInfoUrl: "gomihub-official-sources.html",
+        officialInfoLabel: "公式情報源・確認資料と免責事項",
+        name: {
+            ja: "みんなのごみの日"
+        },
+        description: {
+            ja: "お住まいの地域のごみ収集スケジュールを探して、日々のごみ出し予定を確認できるアプリです。"
+        }
+    },
+    {
         icon: "icon/quickring-overlay-timer.png",
         url: "https://play.google.com/store/apps/details?id=kamesan.quickring_overlay_timer",
         isNew: true,
