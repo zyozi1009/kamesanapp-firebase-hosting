@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kamesan App</title>
     <meta name="description" content="Kamesan App official page. Android apps on Google Play.">
+    <link rel="canonical" href="https://kamesanapp.firebaseapp.com/">
+    <meta property="og:title" content="Kamesan App">
+    <meta property="og:description" content="Kamesan App official page. Android apps on Google Play.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kamesanapp.firebaseapp.com/">
+    <meta property="og:image" content="https://kamesanapp.firebaseapp.com/icon/gomihub.png">
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -58,8 +64,8 @@
                             "item": {
                                 "@type": "MobileApplication",
                                 "name": "みんなのごみの日",
-                                "operatingSystem": "Android",
-                                "url": "https://play.google.com/store/apps/details?id=jp.gomihub"
+                                "operatingSystem": "Android, iOS",
+                                "url": "https://kamesanapp.firebaseapp.com/gomihub/"
                             }
                         },
                         {
@@ -368,6 +374,17 @@
             gap: 18px;
         }
 
+        .ja-only-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: -4px 0 18px;
+        }
+
+        .ja-only-links[hidden] {
+            display: none;
+        }
+
         .app-card {
             position: relative;
             overflow: hidden;
@@ -503,15 +520,39 @@
             filter: brightness(1.06);
         }
 
-        .app-actions {
+        .app-store-links {
             display: flex;
             flex-wrap: wrap;
-            align-items: center;
-            gap: 10px 14px;
+            gap: 8px;
+        }
+
+        .app-store-links .play-link {
+            white-space: nowrap;
+        }
+
+        .play-link.store-secondary {
+            border: 1px solid var(--accent);
+            background: #ffffff;
+            color: var(--accent);
+        }
+
+        .app-actions {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .app-secondary-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 14px;
+            line-height: 1.35;
         }
 
         .app-info-link {
             color: #005f99;
+            font-size: 0.9rem;
             font-weight: 700;
             text-decoration: none;
         }
@@ -607,10 +648,9 @@
 <main class="page">
     <section class="hero">
         <h1 class="brand" id="brand"></h1>
-        <p class="hero-note" id="platform-note"></p>
         <div class="hero-meta">
             <div class="lang-switch">
-                <label class="lang-switch-label" for="lang-select" id="lang-switch-label"></label>
+                <label class="lang-switch-label" for="lang-select">Language</label>
                 <select id="lang-select" class="lang-select" aria-label="Language"></select>
             </div>
         </div>
@@ -636,7 +676,13 @@
 </main>
 
 <footer class="footer">
-    <span class="footer-mail">ike147359 [at] yahoo.co.jp</span>
+    <a class="footer-mail" href="mailto:ike147359@yahoo.co.jp">お問い合わせ：ike147359@yahoo.co.jp</a>
+    <div>　</div>
+    <nav class="ja-only-links" lang="ja" aria-label="日本語コンテンツ">
+        <a class="app-info-link" href="privacypolicy.html">プライバシーポリシー</a>
+        <a class="app-info-link" href="gomihub/index.html">みんなのごみの日:アプリ紹介</a>
+        <a class="app-info-link" href="gomihub-official-sources.html">みんなのごみの日:公式情報源・確認資料と免責事項</a>
+    </nav>
     <p class="copyright">Copyright &copy; 2017 Kamesan App</p>
 </footer>
 
@@ -714,7 +760,6 @@
         document.documentElement.dir = isRtl ? "rtl" : "ltr";
 
         document.getElementById("brand").textContent = words.brand;
-        document.getElementById("platform-note").textContent = words.platformNote;
         document.getElementById("apps-title").textContent = words.appsTitle;
         document.getElementById("support-title").textContent = words.supportTitle;
         document.getElementById("support-text").textContent = words.supportText;
@@ -726,8 +771,10 @@
         document.getElementById("privacy-title").textContent = words.privacyTitle;
         document.getElementById("privacy-text").textContent = words.privacyText;
         document.getElementById("privacy-link").textContent = words.privacyLink;
-        document.getElementById("lang-switch-label").textContent = words.languageLabel;
         document.querySelector(".footer-mail").setAttribute("aria-label", words.mailAria);
+        document.querySelectorAll(".ja-only-links").forEach((el) => {
+            el.hidden = language !== "ja";
+        });
 
         const grid = document.getElementById("app-grid");
         const visibleApps = APPS.filter((app) =>
@@ -736,9 +783,15 @@
         grid.innerHTML = visibleApps.map((app) => {
             const name = pick(app.name, language);
             const description = pick(app.description, language);
+            const landingLink = app.landingPageUrl
+                ? `<a class="app-info-link" href="${app.landingPageUrl}">${escapeHtml(app.landingPageLabel || "")}</a>`
+                : "";
             const infoLink = app.officialInfoUrl
                 ? `<a class="app-info-link" href="${app.officialInfoUrl}">${escapeHtml(app.officialInfoLabel || "")}</a>`
                 : "";
+            const storeLinks = app.iosUrl
+                ? `<div class="app-store-links"><a class="play-link" href="${app.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(words.openStore)}</a><a class="play-link store-secondary" href="${app.iosUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(app.iosStoreLabel || "App Store")}</a></div>`
+                : `<a class="play-link" href="${app.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(words.openStore)}</a>`;
             return `
                 <article class="app-card">
                     <div class="app-card-top">
@@ -752,8 +805,8 @@
                     </div>
                     <p class="app-description">${escapeHtml(description)}</p>
                     <div class="app-actions">
-                        <a class="play-link" href="${app.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(words.openStore)}</a>
-                        ${infoLink}
+                        ${storeLinks}
+                        ${landingLink || infoLink ? `<div class="app-secondary-links">${landingLink}${infoLink}</div>` : ""}
                     </div>
                 </article>
             `;

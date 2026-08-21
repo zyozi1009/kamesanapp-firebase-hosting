@@ -130,7 +130,7 @@ const TEXT = {
     },
     ja: {
         brand: "Kamesan App",
-        platformNote: "掲載アプリはすべてAndroidアプリです。",
+        platformNote: "掲載アプリは、対応するストアからご利用いただけます。",
         appsTitle: "アプリ一覧",
         newBadge: "New!",
         openStore: "Google Playで開く",
@@ -362,8 +362,12 @@ const APPS = [
     {
         icon: "icon/gomihub.png",
         url: "https://play.google.com/store/apps/details?id=jp.gomihub",
+        iosUrl: "https://apps.apple.com/jp/app/id6798723298",
+        iosStoreLabel: "App Store（公開準備中）",
         isNew: true,
         visibleLanguages: ["ja"],
+        landingPageUrl: "gomihub/index.html",
+        landingPageLabel: "アプリ紹介",
         officialInfoUrl: "gomihub-official-sources.html",
         officialInfoLabel: "公式情報源・確認資料と免責事項",
         name: {

@@ -2,7 +2,7 @@ const CONTACT_ADDRESS = "Kamesan App / Mail: ike147359 [at] yahoo.co.jp";
 
 const POLICY_TEXT = {
     en: {
-        intro: "This policy applies to all Android apps and related services provided by Kamesan App.\nLast updated: May 30, 2026",
+        intro: "This policy applies to all Android and iOS mobile apps and related services provided by Kamesan App.\nLast updated: August 7, 2026",
         contactTitle: "Contact",
         contactText: "For inquiries about personal data handling, please use the contact address below.",
         policyItems: [
@@ -32,7 +32,7 @@ const POLICY_TEXT = {
             },
             {
                 title: "Data Deletion Notice",
-                text: "Our apps generally do not provide user-facing account creation. Some apps may use anonymous authentication or identifiers provided by external services to operate app features.\nWe do not provide an individual request channel for deleting user data we hold (Data Safety: no deletion request provided), unless a specific app provides a deletion or unpublishing feature within the app.\nFor data held by external providers, follow each provider's settings and procedures."
+                text: "Our apps generally do not provide user-facing account creation. Some apps may use anonymous authentication or identifiers provided by external services to operate app features.\nWe do not generally provide an individual request channel for deleting user data we hold (Data Safety: no deletion request provided), unless a specific app provides a deletion or unpublishing feature within the app or a separate deletion-request method in its additional notice.\nFor data held by external providers, follow each provider's settings and procedures."
             },
             {
                 title: "User Choices",
@@ -45,7 +45,7 @@ const POLICY_TEXT = {
         ]
     },
     de: {
-        intro: "Diese Richtlinie gilt für alle Android-Apps und zugehörigen Dienste von Kamesan App.\nLetzte Aktualisierung: 18. Februar 2026",
+        intro: "Diese Richtlinie gilt für alle mobilen Android- und iOS-Apps und zugehörigen Dienste von Kamesan App.\nLetzte Aktualisierung: 7. August 2026",
         contactTitle: "Kontakt",
         contactText: "Für Anfragen zur Verarbeitung personenbezogener Daten nutzen Sie bitte die unten stehende Kontaktadresse.",
         policyItems: [
@@ -88,7 +88,7 @@ const POLICY_TEXT = {
         ]
     },
     "es-ES": {
-        intro: "Esta política se aplica a todas las aplicaciones Android y a los servicios relacionados proporcionados por Kamesan App.\nÚltima actualización: 18 de febrero de 2026",
+        intro: "Esta política se aplica a todas las aplicaciones móviles Android e iOS y a los servicios relacionados proporcionados por Kamesan App.\nÚltima actualización: 7 de agosto de 2026",
         contactTitle: "Contacto",
         contactText: "Para consultas sobre el tratamiento de datos personales, utilice el contacto que figura a continuación.",
         policyItems: [
@@ -131,7 +131,7 @@ const POLICY_TEXT = {
         ]
     },
     "es-419": {
-        intro: "Esta política se aplica a todas las aplicaciones Android y a los servicios relacionados que ofrece Kamesan App.\nÚltima actualización: 18 de febrero de 2026",
+        intro: "Esta política se aplica a todas las aplicaciones móviles Android e iOS y a los servicios relacionados que ofrece Kamesan App.\nÚltima actualización: 7 de agosto de 2026",
         contactTitle: "Contacto",
         contactText: "Si tiene consultas sobre el tratamiento de datos personales, utilice el contacto indicado a continuación.",
         policyItems: [
@@ -174,7 +174,7 @@ const POLICY_TEXT = {
         ]
     },
     fr: {
-        intro: "Cette politique s'applique à toutes les applications Android et aux services associés fournis par Kamesan App.\nDernière mise à jour : 18 février 2026",
+        intro: "Cette politique s'applique à toutes les applications mobiles Android et iOS et aux services associés fournis par Kamesan App.\nDernière mise à jour : 7 août 2026",
         contactTitle: "Contact",
         contactText: "Pour toute question concernant le traitement des données personnelles, veuillez utiliser les coordonnées ci-dessous.",
         policyItems: [
@@ -217,7 +217,7 @@ const POLICY_TEXT = {
         ]
     },
     id: {
-        intro: "Kebijakan ini berlaku untuk semua aplikasi Android dan layanan terkait yang disediakan oleh Kamesan App.\nTerakhir diperbarui: 18 Februari 2026",
+        intro: "Kebijakan ini berlaku untuk semua aplikasi seluler Android dan iOS serta layanan terkait yang disediakan oleh Kamesan App.\nTerakhir diperbarui: 7 Agustus 2026",
         contactTitle: "Kontak",
         contactText: "Untuk pertanyaan mengenai penanganan data pribadi, silakan gunakan kontak di bawah ini.",
         policyItems: [
@@ -260,7 +260,7 @@ const POLICY_TEXT = {
         ]
     },
     ja: {
-        intro: "本ポリシーは、Kamesan App が提供する Android アプリおよび関連サービス全体に適用されます。\n最終更新日: 2026年5月30日",
+        intro: "本ポリシーは、Kamesan App が提供する Android・iOS 向けモバイルアプリおよび関連サービス全体に適用されます。\n最終更新日: 2026年8月7日",
         contactTitle: "お問い合せ（受付範囲）",
         contactText: "個人情報の取扱いに関するご連絡は、下記の連絡先をご利用ください。",
         policyItems: [
@@ -290,7 +290,7 @@ const POLICY_TEXT = {
             },
             {
                 title: "データ削除に関する案内",
-                text: "当方のアプリは、通常、ユーザー向けのアカウント作成機能を提供していません。一部のアプリでは、機能提供のために外部サービスが発行する匿名認証または識別子を利用する場合があります。\n当方が保持するデータについて、個別の削除リクエスト窓口は設けていません（Data Safety 申告: 削除リクエスト未提供）。ただし、アプリ内で削除・公開停止等の機能を提供している場合は、その機能を利用できます。\n外部事業者が保持するデータの削除・管理については、各事業者が提供する設定・手続きに従ってください。"
+                text: "当方のアプリは、通常、ユーザー向けのアカウント作成機能を提供していません。一部のアプリでは、機能提供のために外部サービスが発行する匿名認証または識別子を利用する場合があります。\n当方が保持するデータについて、個別の削除リクエスト窓口は原則として設けていません（Data Safety 申告: 削除リクエスト未提供）。ただし、アプリ内で削除・公開停止等の機能を提供している場合、またはアプリ固有の補足で削除依頼の方法を定めている場合は、その方法を利用できます。\n外部事業者が保持するデータの削除・管理については、各事業者が提供する設定・手続きに従ってください。"
             },
             {
                 title: "ユーザーの選択肢",
@@ -303,7 +303,7 @@ const POLICY_TEXT = {
         ]
     },
     ko: {
-        intro: "본 방침은 Kamesan App이 제공하는 모든 Android 앱 및 관련 서비스에 적용됩니다.\n최종 업데이트: 2026년 2월 18일",
+        intro: "본 방침은 Kamesan App이 제공하는 모든 Android 및 iOS 모바일 앱과 관련 서비스에 적용됩니다.\n최종 업데이트: 2026년 8월 7일",
         contactTitle: "문의처",
         contactText: "개인정보 처리에 관한 문의는 아래 연락처를 이용해 주세요.",
         policyItems: [
@@ -346,7 +346,7 @@ const POLICY_TEXT = {
         ]
     },
     "pt-BR": {
-        intro: "Esta política se aplica a todos os aplicativos Android e serviços relacionados fornecidos pela Kamesan App.\nÚltima atualização: 18 de fevereiro de 2026",
+        intro: "Esta política se aplica a todos os aplicativos móveis Android e iOS e serviços relacionados fornecidos pela Kamesan App.\nÚltima atualização: 7 de agosto de 2026",
         contactTitle: "Contato",
         contactText: "Para dúvidas sobre o tratamento de dados pessoais, utilize o contato abaixo.",
         policyItems: [
@@ -389,7 +389,7 @@ const POLICY_TEXT = {
         ]
     },
     "zh-CN": {
-        intro: "本政策适用于 Kamesan App 提供的所有 Android 应用及相关服务。\n最后更新日期：2026年2月18日",
+        intro: "本政策适用于 Kamesan App 提供的所有 Android 和 iOS 移动应用及相关服务。\n最后更新日期：2026年8月7日",
         contactTitle: "联系方式",
         contactText: "如对个人信息处理有疑问，请使用以下联系方式联系我们。",
         policyItems: [
@@ -432,7 +432,7 @@ const POLICY_TEXT = {
         ]
     },
     "zh-TW": {
-        intro: "本政策適用於 Kamesan App 提供的所有 Android 應用程式及相關服務。\n最後更新日期：2026年2月18日",
+        intro: "本政策適用於 Kamesan App 提供的所有 Android 與 iOS 行動應用程式及相關服務。\n最後更新日期：2026年8月7日",
         contactTitle: "聯絡方式",
         contactText: "若您對個人資料處理有疑問，請使用以下聯絡方式與我們聯繫。",
         policyItems: [
@@ -475,7 +475,7 @@ const POLICY_TEXT = {
         ]
     },
     it: {
-        intro: "Questa informativa si applica a tutte le app Android e ai servizi correlati forniti da Kamesan App.\nUltimo aggiornamento: 18 febbraio 2026",
+        intro: "Questa informativa si applica a tutte le app mobili Android e iOS e ai servizi correlati forniti da Kamesan App.\nUltimo aggiornamento: 7 agosto 2026",
         contactTitle: "Contatti",
         contactText: "Per richieste relative al trattamento dei dati personali, si prega di utilizzare il contatto riportato di seguito.",
         policyItems: [
@@ -518,7 +518,7 @@ const POLICY_TEXT = {
         ]
     },
     pl: {
-        intro: "Niniejsza polityka dotyczy wszystkich aplikacji na Androida oraz usług powiązanych świadczonych przez Kamesan App.\nOstatnia aktualizacja: 18 lutego 2026 r.",
+        intro: "Niniejsza polityka dotyczy wszystkich aplikacji mobilnych na Androida i iOS oraz usług powiązanych świadczonych przez Kamesan App.\nOstatnia aktualizacja: 7 sierpnia 2026 r.",
         contactTitle: "Kontakt",
         contactText: "W sprawach dotyczących przetwarzania danych osobowych prosimy o kontakt pod poniższym adresem.",
         policyItems: [
@@ -561,7 +561,7 @@ const POLICY_TEXT = {
         ]
     },
     ru: {
-        intro: "Настоящая политика распространяется на все приложения Android и связанные с ними сервисы, предоставляемые Kamesan App.\nПоследнее обновление: 18 февраля 2026 г.",
+        intro: "Настоящая политика распространяется на все мобильные приложения Android и iOS и связанные с ними сервисы, предоставляемые Kamesan App.\nПоследнее обновление: 7 августа 2026 г.",
         contactTitle: "Контакты",
         contactText: "По вопросам обработки персональных данных используйте контактные данные ниже.",
         policyItems: [
@@ -604,7 +604,7 @@ const POLICY_TEXT = {
         ]
     },
     hi: {
-        intro: "यह नीति Kamesan App द्वारा प्रदान किए जाने वाले सभी Android ऐप और संबंधित सेवाओं पर लागू होती है।\nअंतिम अद्यतन: 18 फ़रवरी 2026",
+        intro: "यह नीति Kamesan App द्वारा प्रदान किए जाने वाले सभी Android और iOS मोबाइल ऐप और संबंधित सेवाओं पर लागू होती है।\nअंतिम अद्यतन: 7 अगस्त 2026",
         contactTitle: "संपर्क",
         contactText: "व्यक्तिगत डेटा के प्रबंधन से संबंधित पूछताछ के लिए कृपया नीचे दिया गया संपर्क उपयोग करें।",
         policyItems: [
@@ -647,7 +647,7 @@ const POLICY_TEXT = {
         ]
     },
     tr: {
-        intro: "Bu politika, Kamesan App tarafından sunulan tüm Android uygulamaları ve ilgili hizmetler için geçerlidir.\nSon güncelleme: 18 Şubat 2026",
+        intro: "Bu politika, Kamesan App tarafından sunulan tüm Android ve iOS mobil uygulamaları ve ilgili hizmetler için geçerlidir.\nSon güncelleme: 7 Ağustos 2026",
         contactTitle: "İletişim",
         contactText: "Kişisel verilerin işlenmesiyle ilgili sorular için lütfen aşağıdaki iletişim bilgisini kullanın.",
         policyItems: [
@@ -690,7 +690,7 @@ const POLICY_TEXT = {
         ]
     },
     ar: {
-        intro: "تنطبق هذه السياسة على جميع تطبيقات Android والخدمات المرتبطة التي تقدمها Kamesan App.\nآخر تحديث: 18 فبراير 2026",
+        intro: "تنطبق هذه السياسة على جميع تطبيقات Android وiOS للهواتف المحمولة والخدمات المرتبطة التي تقدمها Kamesan App.\nآخر تحديث: 7 أغسطس 2026",
         contactTitle: "التواصل",
         contactText: "للاستفسارات المتعلقة بالتعامل مع البيانات الشخصية، يُرجى استخدام جهة الاتصال أدناه.",
         policyItems: [
@@ -733,7 +733,7 @@ const POLICY_TEXT = {
         ]
     },
     nl: {
-        intro: "Dit beleid is van toepassing op alle Android-apps en gerelateerde diensten die door Kamesan App worden aangeboden.\nLaatst bijgewerkt: 18 februari 2026",
+        intro: "Dit beleid is van toepassing op alle mobiele Android- en iOS-apps en gerelateerde diensten die door Kamesan App worden aangeboden.\nLaatst bijgewerkt: 7 augustus 2026",
         contactTitle: "Contact",
         contactText: "Voor vragen over de verwerking van persoonsgegevens kunt u onderstaande contactgegevens gebruiken.",
         policyItems: [
@@ -776,7 +776,7 @@ const POLICY_TEXT = {
         ]
     },
     vi: {
-        intro: "Chính sách này áp dụng cho tất cả ứng dụng Android và các dịch vụ liên quan do Kamesan App cung cấp.\nCập nhật lần cuối: 18 tháng 2 năm 2026",
+        intro: "Chính sách này áp dụng cho tất cả ứng dụng di động Android và iOS cùng các dịch vụ liên quan do Kamesan App cung cấp.\nCập nhật lần cuối: 7 tháng 8 năm 2026",
         contactTitle: "Liên hệ",
         contactText: "Nếu có thắc mắc về việc xử lý dữ liệu cá nhân, vui lòng sử dụng thông tin liên hệ bên dưới.",
         policyItems: [
@@ -819,7 +819,7 @@ const POLICY_TEXT = {
         ]
     },
     th: {
-        intro: "นโยบายนี้ใช้กับแอป Android และบริการที่เกี่ยวข้องทั้งหมดที่ Kamesan App ให้บริการ\nอัปเดตล่าสุด: 18 กุมภาพันธ์ 2026",
+        intro: "นโยบายนี้ใช้กับแอปมือถือ Android และ iOS และบริการที่เกี่ยวข้องทั้งหมดที่ Kamesan App ให้บริการ\nอัปเดตล่าสุด: 7 สิงหาคม 2026",
         contactTitle: "ติดต่อ",
         contactText: "หากมีข้อสงสัยเกี่ยวกับการจัดการข้อมูลส่วนบุคคล โปรดใช้ช่องทางติดต่อด้านล่าง",
         policyItems: [
@@ -866,14 +866,46 @@ const POLICY_TEXT = {
 const GOMIHUB_POLICY_APPENDIX = {
     en: [
         {
-            title: "Additional Notice for Minna no Gomi no Hi",
-            text: "For the Android app \"Minna no Gomi no Hi\" (GomiHub), this policy includes the following data handling that may occur when related features are used:\n- Approximate location and postal code entered for area lookup\n- App interactions such as applying a schedule, confirmations, feedback, and reports\n- Crash logs, diagnostics, and device or other identifiers, including the Advertising ID\n- Anonymous user IDs issued by Firebase Authentication or similar external services\n- User-submitted schedule content and related metadata when users post, publish, share, confirm, or report schedules\nThis data may be collected, shared, or both, depending on the feature and provider. It may be sent to Google LLC services such as Google Mobile Ads / AdMob, Firebase Authentication, Cloud Firestore, Firebase App Check / Play Integrity, and Google Play services, and to the postal code lookup API provider currently used by the app, zipcloud."
+            title: "Additional Notice for Minna no Gomi no Hi (GomiHub)",
+            text: "This notice applies to the Android and iOS versions of Minna no Gomi no Hi (GomiHub). When the relevant features are used, the app may handle the following information:\n- Anonymous user IDs issued by Firebase Authentication\n- Public schedule content and related metadata, including an area, collection rules, descriptions, reference URLs, timestamps, and the anonymous ID of the publisher\n- Schedule-application records, Good/Bad feedback, reports, and any report note entered by the user\n- Device, network, advertising, and app-interaction information processed by Google Mobile Ads / AdMob for ad delivery and measurement\nPublic schedules and the information needed to display, manage, or moderate them may be visible to other users. Do not enter personal information in a schedule title, area, description, reference URL, or report note."
+        },
+        {
+            title: "iOS Location, Notifications, and On-Device Storage",
+            text: "The iOS app accesses the device's current location only after you choose a current-location feature. It uses Apple Core Location and reverse geocoding to determine a prefecture, municipality, or ward for schedule search or setup. The app does not send location coordinates to Firebase or automatically include the current location or address in a public schedule.\nSchedule data, settings, reminder settings, and widget data are stored on the device. Widget data is shared only with the app's iOS widget through its App Group. Reminders are local notifications scheduled on the device; the app does not use a server to send push notifications."
+        },
+        {
+            title: "External Services and Your Choices",
+            text: "For the features above, information may be sent to Google LLC through Google Mobile Ads / AdMob, Firebase Authentication, Cloud Firestore, and Firebase App Check (using Play Integrity on Android and App Attest on iOS). On iOS, Apple services process the location and reverse-geocoding request needed for the current-location feature.\nThe iOS app does not request App Tracking Transparency permission and does not track you across other companies' apps or websites. You may decline location or notification permission in iOS settings, and may adjust ad-related preferences in your device or Google account settings where available."
+        },
+        {
+            title: "Publisher Identification, Feedback, and Individual Blocking",
+            text: "We store a publisher's anonymous Firebase ID to determine who may edit or unpublish a schedule and to help prevent duplicate Good/Bad actions. This identifier is not displayed as an account profile in the normal app interface.\nWhen you use the individual publisher-block feature, the app uses the publisher's anonymous ID and your block setting to hide that publisher's public schedules from your view. The block setting is stored on your device for this feature and is not shown to other users. You may also use Bad to report a schedule. Reports, Good/Bad actions, and related anonymous IDs are used for quality management and abuse prevention; a schedule may be hidden from public search while it is reviewed."
+        },
+        {
+            title: "Retention, Unpublishing, and Deletion Requests",
+            text: "Public schedules, related anonymous IDs, Good/Bad records, reports, and report notes are retained in Cloud Firestore only while needed for publication, quality management, abuse prevention, or legal obligations. A publisher can use the in-app unpublish action to remove a schedule from public search; the server record is then kept hidden rather than immediately erased. After unpublishing, the publisher can delete the local copy. You can cancel your own Good or Bad action, which deletes its associated feedback record.\nIf you need removal of a public schedule, report, feedback record, or related data that you cannot manage in the app, contact the address shown in this policy. Please identify the item with its schedule title, area, fiscal year, and other non-sensitive details needed to locate it. We may request enough information to confirm the request and handle it in accordance with applicable law and our retention needs."
         }
     ],
     ja: [
         {
-            title: "「みんなのごみの日」に関する補足",
-            text: "Androidアプリ「みんなのごみの日」（GomiHub）では、関連機能を利用する場合、本ポリシーは以下の情報の取扱いを含みます。\n・地域検索のためのおおよその現在地および入力された郵便番号\n・スケジュールの適用、確認、フィードバック、通報等のアプリ操作情報\n・クラッシュログ、診断情報、広告IDを含む端末またはその他の識別子\n・Firebase Authentication 等の外部サービスが発行する匿名ユーザーID\n・ユーザーが投稿、公開、共有、確認、通報するスケジュール内容および関連メタデータ\nこれらの情報は、機能や提供先に応じて、収集データ、共有データ、またはその両方として取り扱われる場合があります。また、Google LLC の Google Mobile Ads / AdMob、Firebase Authentication、Cloud Firestore、Firebase App Check / Play Integrity、Google Play services 等、および本アプリが現在利用している郵便番号検索API提供者である zipcloud へ送信される場合があります。"
+            title: "「みんなのごみの日」（GomiHub）の対象範囲と情報",
+            text: "本補足は「みんなのごみの日」（GomiHub）の Android 版および iOS 版に適用されます。関連機能を利用する場合、以下の情報を取り扱うことがあります。\n・Firebase Authentication が発行する匿名ユーザーID\n・公開するスケジュールの内容および関連情報（地域、収集ルール、説明メモ、参考URL、日時、公開者の匿名ID等）\n・スケジュールの適用記録、Good／Badの評価、通報および利用者が入力した通報メモ\n・Google Mobile Ads / AdMob が広告配信・効果測定のために処理する端末情報、ネットワーク情報、広告関連情報、アプリ操作情報\n公開スケジュールおよびその表示・管理・審査に必要な情報は、他の利用者に表示される場合があります。スケジュールの名称、地域、説明メモ、参考URL、通報メモには個人情報を入力しないでください。"
+        },
+        {
+            title: "iOS版の位置情報・通知・端末内保存",
+            text: "iOS版は、利用者が現在地を使う機能を選択した場合に限り、端末の現在地を利用します。Appleの Core Location および逆ジオコーディングを用いて、スケジュールの検索・設定に必要な都道府県、市区町村、区を判定します。位置座標を Firebase に送信したり、現在地や住所を公開スケジュールに自動で含めたりすることはありません。\nスケジュール、各種設定、通知設定、ウィジェット用データは端末内に保存します。ウィジェット用データは、iOS の App Group を介して本アプリのウィジェットとのみ共有します。通知は端末内で予約するローカル通知であり、サーバーからプッシュ通知を送信する仕組みは利用していません。"
+        },
+        {
+            title: "外部サービスへの送信と利用者の選択",
+            text: "上記の機能のため、Google LLC が提供する Google Mobile Ads / AdMob、Firebase Authentication、Cloud Firestore、Firebase App Check（Android版では Play Integrity、iOS版では App Attest を使用）へ情報が送信される場合があります。iOS版で現在地機能を使う場合は、Appleのサービスが位置情報および逆ジオコーディングのリクエストを処理します。\niOS版は App Tracking Transparency の許可を求めず、他社のアプリやWebサイトをまたぐ追跡を行いません。iOSの設定から位置情報・通知の許可を拒否または変更でき、利用可能な場合は端末またはGoogleアカウントの設定から広告に関する設定を変更できます。"
+        },
+        {
+            title: "投稿者の識別・評価・個別ブロック",
+            text: "投稿者がスケジュールを編集・公開停止できることの確認や、Good／Badの重複防止のため、投稿者の Firebase 匿名IDを保存します。このIDは通常のアプリ画面でアカウント情報として表示しません。\n投稿者の個別ブロック機能を利用すると、投稿者の匿名IDと利用者のブロック設定を用いて、その投稿者の公開スケジュールを利用者自身の画面から非表示にします。ブロック設定はこの機能のために端末内へ保存し、他の利用者には表示しません。問題のあるスケジュールは Bad でも報告できます。通報、Good／Badの評価および関連する匿名IDは、品質管理と不正利用防止のために利用し、審査中のスケジュールは公開検索から非表示にする場合があります。"
+        },
+        {
+            title: "保存期間・公開停止・削除依頼",
+            text: "公開スケジュール、関連する匿名ID、Good／Badの評価、通報および通報メモは、公開、品質管理、不正利用防止または法令上の義務に必要な期間に限り Cloud Firestore に保存します。投稿者はアプリ内の公開停止機能により、スケジュールを公開検索から外すことができます。公開停止後はサーバー上の記録を直ちに消去せず、非公開として保持します。公開停止後は、端末内のスケジュールを削除できます。自分で行った Good または Bad は取り消すことができ、その評価記録は削除されます。\nアプリ内で対応できない公開スケジュール、通報、評価記録または関連情報の削除を希望する場合は、本ポリシーに記載した連絡先へご連絡ください。対象を特定できるよう、スケジュール名、地域、年度などの必要最小限の情報をお知らせください。本人確認等に必要な情報をお願いする場合があり、適用法令および保存の必要性に従って対応します。"
         }
     ]
 };
