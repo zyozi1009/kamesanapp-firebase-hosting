@@ -363,7 +363,7 @@ const APPS = [
         icon: "icon/gomihub.png",
         url: "https://play.google.com/store/apps/details?id=jp.gomihub",
         iosUrl: "https://apps.apple.com/jp/app/id6798723298",
-        iosStoreLabel: "App Store（公開準備中）",
+        iosStoreLabel: "App Storeで開く",
         isNew: true,
         visibleLanguages: ["ja"],
         landingPageUrl: "gomihub/index.html",
