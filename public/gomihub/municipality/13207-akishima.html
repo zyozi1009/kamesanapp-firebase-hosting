@@ -82,7 +82,9 @@
         h1 { margin: 0; max-width: 820px; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.22; letter-spacing: 0; }
         .lead { margin: 18px 0 0; max-width: 760px; color: var(--muted); font-size: clamp(1rem, 2vw, 1.16rem); }
         .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
-        .store-qr { display: grid; grid-template-columns: repeat(2, minmax(0, 156px)); gap: 12px; margin-top: 16px; }
+        .store-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 156px)); gap: 12px; width: max-content; margin-top: 26px; }
+        .store-actions .button { width: 156px; }
+        .store-qr { display: grid; grid-template-columns: repeat(2, minmax(0, 156px)); gap: 12px; width: max-content; margin-top: 16px; }
         .store-qr__code { display: grid; justify-items: center; align-content: start; gap: 8px; padding: 12px; border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: 10px; background: var(--surface); box-shadow: 0 6px 16px rgba(27, 75, 58, 0.06); color: var(--accent-dark); font-size: 0.78rem; font-weight: 800; line-height: 1.35; text-align: center; text-decoration: none; }
         .store-qr__code:hover { border-color: var(--accent); box-shadow: 0 8px 18px rgba(27, 75, 58, 0.12); }
         .store-qr img { display: block; width: 100%; max-width: 122px; height: auto; padding: 3px; border: 1px solid var(--line); border-radius: 6px; background: #ffffff; }
@@ -99,7 +101,7 @@
         .notice { margin-top: 18px; padding: 14px 16px; border-radius: 8px; border: 1px solid #e6d3a9; background: var(--warm); color: #4b432f; }
         .footer { padding-top: 24px; color: var(--muted); font-size: 0.92rem; }
         @media (max-width: 920px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-        @media (max-width: 760px) { .nav { align-items: flex-start; flex-direction: column; } .grid { grid-template-columns: 1fr; } .button { width: 100%; } .store-qr { grid-template-columns: 1fr; } .store-qr__code { max-width: 250px; } .hero, .section.tinted { padding: 22px; } }
+        @media (max-width: 760px) { .nav { align-items: flex-start; flex-direction: column; } .grid { grid-template-columns: 1fr; } .button { width: 100%; } .store-actions, .store-qr { grid-template-columns: 1fr; width: 100%; max-width: 250px; } .store-actions .button { width: 100%; } .hero, .section.tinted { padding: 22px; } }
     </style>
 </head>
 
@@ -118,14 +120,16 @@
         <p class="lead">
             アプリ「みんなのごみの日」では東京都昭島市のスケジュールに対応しています。対象スケジュールを取り込むことで、月間カレンダー・通知・ウィジェットでごみ収集日を確認できます。
         </p>
-        <div class="actions">
+        <div class="store-actions">
             <a class="button" href="https://play.google.com/store/apps/details?id=jp.gomihub" target="_blank" rel="noopener noreferrer">Android版</a>
             <a class="button" href="https://apps.apple.com/jp/app/id6798723298" target="_blank" rel="noopener noreferrer">iPhone版</a>
-            <a class="button secondary" href="#sources">公式情報の確認元</a>
         </div>
         <div class="store-qr" aria-label="アプリのダウンロード">
             <a class="store-qr__code" href="https://play.google.com/store/apps/details?id=jp.gomihub" target="_blank" rel="noopener noreferrer"><img src="../../icon/gomihub-google-play-qr.svg" alt="「みんなのごみの日」Android版QRコード" width="104" height="104"><span>Android版</span></a>
             <a class="store-qr__code" href="https://apps.apple.com/jp/app/id6798723298" target="_blank" rel="noopener noreferrer"><img src="../../icon/gomihub-app-store-qr.svg" alt="「みんなのごみの日」iPhone版QRコード" width="104" height="104"><span>iPhone版</span></a>
+        </div>
+        <div class="actions">
+            <a class="button secondary" href="#sources">公式情報の確認元</a>
         </div>
     </section>
 
