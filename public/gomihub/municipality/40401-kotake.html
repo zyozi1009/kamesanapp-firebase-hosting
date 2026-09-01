@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>小竹町のごみの日・ごみカレンダーをスマホで確認 | みんなのごみの日</title>
-    <meta name="description" content="Android・iOS対応アプリ「みんなのごみの日」では福岡県小竹町のスケジュールに対応しています。対象スケジュールを取り込むことで、カレンダー・通知・ウィジェットでごみ収集日を確認できます。">
+    <meta name="description" content="Androidアプリ「みんなのごみの日」では福岡県小竹町のスケジュールに対応しています。対象スケジュールを取り込むことで、カレンダー・通知・ウィジェットでごみ収集日を確認できます。">
     <link rel="canonical" href="https://kamesanapp.firebaseapp.com/gomihub/municipality/40401-kotake.html">
     <meta property="og:title" content="小竹町のごみの日・ごみカレンダーをスマホで確認">
     <meta property="og:description" content="福岡県小竹町のごみ収集日を、カレンダー・通知・ウィジェットで確認できます。">
@@ -22,9 +22,9 @@
         "about": {
                 "@type": "MobileApplication",
                 "name": "みんなのごみの日",
-                "operatingSystem": "Android, iOS",
+                "operatingSystem": "Android",
                 "applicationCategory": "LifestyleApplication",
-                "url": "https://kamesanapp.firebaseapp.com/gomihub/"
+                "url": "https://play.google.com/store/apps/details?id=jp.gomihub"
         }
 }
     </script>
@@ -84,13 +84,6 @@
         .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
         .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 12px 18px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: #ffffff; font-weight: 800; text-decoration: none; }
         .button.secondary { background: transparent; color: var(--accent-dark); }
-        .store-options { display: grid; grid-template-columns: repeat(2, max-content); gap: 12px; width: fit-content; max-width: 100%; margin-top: 26px; }
-        .store-option { display: grid; gap: 10px; width: max-content; }
-        .store-option .button { width: 100%; white-space: nowrap; }
-        .store-qr__code { display: grid; justify-items: center; align-content: start; gap: 8px; padding: 12px; border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: 10px; background: var(--surface); box-shadow: 0 6px 16px rgba(27, 75, 58, 0.06); color: var(--accent-dark); font-size: 0.78rem; font-weight: 800; line-height: 1.35; text-align: center; text-decoration: none; }
-        .store-qr__code:hover { border-color: var(--accent); box-shadow: 0 8px 18px rgba(27, 75, 58, 0.12); }
-        .store-qr img { display: block; width: 100%; max-width: 122px; height: auto; padding: 3px; border: 1px solid var(--line); border-radius: 6px; background: #ffffff; }
-        .store-secondary-actions { margin-top: 12px; }
         .section { padding: 30px 0; border-bottom: 1px solid var(--line); }
         .section.tinted { margin-top: 22px; padding: 24px; border: 1px solid var(--line); border-radius: 12px; background: var(--gray-soft); }
         h2 { margin: 0 0 14px; font-size: clamp(1.3rem, 3vw, 1.75rem); line-height: 1.35; }
@@ -101,11 +94,8 @@
         .source-list { margin: 14px 0 0; padding-left: 1.2rem; }
         .notice { margin-top: 18px; padding: 14px 16px; border-radius: 8px; border: 1px solid #e6d3a9; background: var(--warm); color: #4b432f; }
         .footer { padding-top: 24px; color: var(--muted); font-size: 0.92rem; }
-        .footer-links { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 12px 0 0; }
-        .footer-links a { color: var(--accent-dark); }
         @media (max-width: 920px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
         @media (max-width: 760px) { .nav { align-items: flex-start; flex-direction: column; } .grid { grid-template-columns: 1fr; } .button { width: 100%; } .hero, .section.tinted { padding: 22px; } }
-        @media (max-width: 560px) { .store-options { grid-template-columns: 1fr; width: min(100%, 300px); } .store-option { width: 100%; } }
     </style>
 </head>
 
@@ -113,7 +103,7 @@
 <main class="page">
     <section class="hero">
         <nav class="nav" aria-label="ページ内ナビゲーション">
-            <a class="brand" href="../" aria-label="みんなのごみの日の案内ページ">
+            <a class="brand" href="https://play.google.com/store/apps/details?id=jp.gomihub" target="_blank" rel="noopener noreferrer">
                 <img src="../../icon/gomihub.png" alt="" width="42" height="42">
                 <span>みんなのごみの日</span>
             </a>
@@ -122,19 +112,10 @@
         <p class="eyebrow">福岡県小竹町のごみの日</p>
         <h1>小竹町のごみの日を、スマホで確認しやすく</h1>
         <p class="lead">
-            Android・iOS対応アプリ「みんなのごみの日」では福岡県小竹町のスケジュールに対応しています。対象スケジュールを取り込むことで、月間カレンダー・通知・ウィジェットでごみ収集日を確認できます。
+            Androidアプリ「みんなのごみの日」では福岡県小竹町のスケジュールに対応しています。対象スケジュールを取り込むことで、月間カレンダー・通知・ウィジェットでごみ収集日を確認できます。
         </p>
-        <div class="store-options">
-            <div class="store-option">
-                <a class="button" href="https://play.google.com/store/apps/details?id=jp.gomihub" target="_blank" rel="noopener noreferrer">Android版をGoogle Playで開く</a>
-                <a class="store-qr__code" href="https://play.google.com/store/apps/details?id=jp.gomihub" target="_blank" rel="noopener noreferrer"><img src="../../icon/gomihub-google-play-qr.svg" alt="Google Playで「みんなのごみの日」を開くAndroid版QRコード" width="104" height="104"><span>Android版（Google Play）</span></a>
-            </div>
-            <div class="store-option">
-                <a class="button" href="https://apps.apple.com/jp/app/id6798723298" target="_blank" rel="noopener noreferrer">iOS版はApp Store公開準備中</a>
-                <a class="store-qr__code" href="https://apps.apple.com/jp/app/id6798723298" target="_blank" rel="noopener noreferrer"><img src="../../icon/gomihub-app-store-qr.svg" alt="App Storeで「みんなのごみの日」を開くiOS版QRコード" width="104" height="104"><span>iOS版（App Store）</span></a>
-            </div>
-        </div>
-        <div class="actions store-secondary-actions">
+        <div class="actions">
+            <a class="button" href="https://play.google.com/store/apps/details?id=jp.gomihub" target="_blank" rel="noopener noreferrer">Google Playで開く</a>
             <a class="button secondary" href="#sources">公式情報の確認元</a>
         </div>
     </section>
@@ -184,21 +165,16 @@
     <section class="section">
         <h2>アプリで確認する</h2>
         <p>
-            AndroidまたはiOS端末で「みんなのごみの日」を開き、現在地から近くの市区町村を探すか、地域一覧から小竹町を選んでください。小竹町を選んだあとは、お住まいの地区に合うスケジュールを取り込みます。取り込んだスケジュールは、カレンダー・通知・ウィジェットで確認できます。
+            Androidスマホで「みんなのごみの日」を開き、現在地から近くの市区町村を探すか、地域一覧から小竹町を選んでください。小竹町を選んだあとは、お住まいの地区に合うスケジュールを取り込みます。取り込んだスケジュールは、カレンダー・通知・ウィジェットで確認できます。
         </p>
         <div class="actions">
-            <a class="button" href="https://play.google.com/store/apps/details?id=jp.gomihub" target="_blank" rel="noopener noreferrer">Android版をGoogle Playでインストール</a>
-            <a class="button" href="https://apps.apple.com/jp/app/id6798723298" target="_blank" rel="noopener noreferrer">iOS版はApp Store公開準備中</a>
+            <a class="button" href="https://play.google.com/store/apps/details?id=jp.gomihub" target="_blank" rel="noopener noreferrer">みんなのごみの日をインストール</a>
             <a class="button secondary" href="../../gomihub-official-sources.html">公式情報源一覧</a>
         </div>
     </section>
 
     <footer class="footer">
-        <p>掲載内容は2026年8月時点の案内です。収集日や分別の最終確認は自治体公式情報を優先してください。</p>
-        <div class="footer-links">
-            <a href="mailto:ike147359@yahoo.co.jp">お問い合わせ：ike147359@yahoo.co.jp</a>
-            <a href="../../privacypolicy.html">プライバシーポリシー</a>
-        </div>
+        <p>掲載内容は2026年9月時点の案内です。収集日や分別の最終確認は自治体公式情報を優先してください。</p>
     </footer>
 </main>
 </body>
