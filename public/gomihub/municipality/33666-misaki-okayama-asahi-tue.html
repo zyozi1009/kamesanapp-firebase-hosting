@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>美咲町のごみの日・ごみカレンダーをスマホで確認 | みんなのごみの日</title>
-    <meta name="description" content="Androidアプリ「みんなのごみの日」では岡山県美咲町のスケジュールに対応しています。対象スケジュールを取り込むことで、カレンダー・通知・ウィジェットでごみ収集日を確認できます。">
+    <meta name="description" content="アプリ「みんなのごみの日」では岡山県美咲町のスケジュールに対応しています。対象スケジュールを取り込むことで、カレンダー・通知・ウィジェットでごみ収集日を確認できます。">
     <link rel="canonical" href="https://kamesanapp.firebaseapp.com/gomihub/municipality/33666-misaki-okayama-asahi-tue.html">
     <meta property="og:title" content="美咲町のごみの日・ごみカレンダーをスマホで確認">
     <meta property="og:description" content="岡山県美咲町のごみ収集日を、カレンダー・通知・ウィジェットで確認できます。">
@@ -22,7 +22,7 @@
         "about": {
                 "@type": "MobileApplication",
                 "name": "みんなのごみの日",
-                "operatingSystem": "Android",
+                "operatingSystem": "Android, iOS",
                 "applicationCategory": "LifestyleApplication",
                 "url": "https://play.google.com/store/apps/details?id=jp.gomihub"
         }
@@ -82,6 +82,10 @@
         h1 { margin: 0; max-width: 820px; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.22; letter-spacing: 0; }
         .lead { margin: 18px 0 0; max-width: 760px; color: var(--muted); font-size: clamp(1rem, 2vw, 1.16rem); }
         .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+        .store-qr { display: grid; grid-template-columns: repeat(2, minmax(0, 156px)); gap: 12px; margin-top: 16px; }
+        .store-qr__code { display: grid; justify-items: center; align-content: start; gap: 8px; padding: 12px; border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: 10px; background: var(--surface); box-shadow: 0 6px 16px rgba(27, 75, 58, 0.06); color: var(--accent-dark); font-size: 0.78rem; font-weight: 800; line-height: 1.35; text-align: center; text-decoration: none; }
+        .store-qr__code:hover { border-color: var(--accent); box-shadow: 0 8px 18px rgba(27, 75, 58, 0.12); }
+        .store-qr img { display: block; width: 100%; max-width: 122px; height: auto; padding: 3px; border: 1px solid var(--line); border-radius: 6px; background: #ffffff; }
         .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 12px 18px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: #ffffff; font-weight: 800; text-decoration: none; }
         .button.secondary { background: transparent; color: var(--accent-dark); }
         .section { padding: 30px 0; border-bottom: 1px solid var(--line); }
@@ -95,7 +99,7 @@
         .notice { margin-top: 18px; padding: 14px 16px; border-radius: 8px; border: 1px solid #e6d3a9; background: var(--warm); color: #4b432f; }
         .footer { padding-top: 24px; color: var(--muted); font-size: 0.92rem; }
         @media (max-width: 920px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-        @media (max-width: 760px) { .nav { align-items: flex-start; flex-direction: column; } .grid { grid-template-columns: 1fr; } .button { width: 100%; } .hero, .section.tinted { padding: 22px; } }
+        @media (max-width: 760px) { .nav { align-items: flex-start; flex-direction: column; } .grid { grid-template-columns: 1fr; } .button { width: 100%; } .store-qr { grid-template-columns: 1fr; } .store-qr__code { max-width: 250px; } .hero, .section.tinted { padding: 22px; } }
     </style>
 </head>
 
@@ -112,11 +116,15 @@
         <p class="eyebrow">岡山県美咲町のごみの日</p>
         <h1>美咲町のごみの日を、スマホで確認しやすく</h1>
         <p class="lead">
-            Androidアプリ「みんなのごみの日」では岡山県美咲町のスケジュールに対応しています。対象スケジュールを取り込むことで、月間カレンダー・通知・ウィジェットでごみ収集日を確認できます。
+            アプリ「みんなのごみの日」では岡山県美咲町のスケジュールに対応しています。対象スケジュールを取り込むことで、月間カレンダー・通知・ウィジェットでごみ収集日を確認できます。
         </p>
         <div class="actions">
             <a class="button" href="https://play.google.com/store/apps/details?id=jp.gomihub" target="_blank" rel="noopener noreferrer">Google Playで開く</a>
+            <a class="button" href="https://apps.apple.com/jp/app/id6798723298" target="_blank" rel="noopener noreferrer">iOS版をApp Storeで開く</a>
             <a class="button secondary" href="#sources">公式情報の確認元</a>
+        </div>
+        <div class="store-qr" aria-label="iOS版のダウンロード">
+            <a class="store-qr__code" href="https://apps.apple.com/jp/app/id6798723298" target="_blank" rel="noopener noreferrer"><img src="../../icon/gomihub-app-store-qr.svg" alt="App Storeで「みんなのごみの日」を開くiOS版QRコード" width="104" height="104"><span>iOS版（App Store）</span></a>
         </div>
     </section>
 
@@ -165,10 +173,11 @@
     <section class="section">
         <h2>アプリで確認する</h2>
         <p>
-            Androidスマホで「みんなのごみの日」を開き、現在地から近くの市区町村を探すか、地域一覧から美咲町を選んでください。美咲町を選んだあとは、お住まいの地区に合うスケジュールを取り込みます。取り込んだスケジュールは、カレンダー・通知・ウィジェットで確認できます。
+            スマホで「みんなのごみの日」を開き、現在地から近くの市区町村を探すか、地域一覧から美咲町を選んでください。美咲町を選んだあとは、お住まいの地区に合うスケジュールを取り込みます。取り込んだスケジュールは、カレンダー・通知・ウィジェットで確認できます。
         </p>
         <div class="actions">
             <a class="button" href="https://play.google.com/store/apps/details?id=jp.gomihub" target="_blank" rel="noopener noreferrer">みんなのごみの日をインストール</a>
+            <a class="button" href="https://apps.apple.com/jp/app/id6798723298" target="_blank" rel="noopener noreferrer">iOS版をApp Storeで開く</a>
             <a class="button secondary" href="../../gomihub-official-sources.html">公式情報源一覧</a>
         </div>
     </section>
