@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kamesan App</title>
-    <meta name="description" content="Kamesan App official page. Android apps on Google Play.">
+    <meta name="description" content="Kamesan App official page. Android and iPhone apps.">
     <link rel="canonical" href="https://kamesanapp.firebaseapp.com/">
     <meta property="og:title" content="Kamesan App">
-    <meta property="og:description" content="Kamesan App official page. Android apps on Google Play.">
+    <meta property="og:description" content="Kamesan App official page. Android and iPhone apps.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kamesanapp.firebaseapp.com/">
     <meta property="og:image" content="https://kamesanapp.firebaseapp.com/icon/gomihub.png">
@@ -40,7 +40,7 @@
                     "@id": "https://kamesanapp.firebaseapp.com/#webpage",
                     "url": "https://kamesanapp.firebaseapp.com/",
                     "name": "Kamesan App",
-                    "description": "Kamesan App official page. Android apps on Google Play.",
+                    "description": "Kamesan App official page. Android and iPhone apps.",
                     "isPartOf": {
                         "@id": "https://kamesanapp.firebaseapp.com/#website"
                     },
@@ -789,9 +789,10 @@
             const infoLink = app.officialInfoUrl
                 ? `<a class="app-info-link" href="${app.officialInfoUrl}">${escapeHtml(app.officialInfoLabel || "")}</a>`
                 : "";
+            const androidLabel = app.androidStoreLabel || words.openStore;
             const storeLinks = app.iosUrl
-                ? `<div class="app-store-links"><a class="play-link" href="${app.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(words.openStore)}</a><a class="play-link store-secondary" href="${app.iosUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(app.iosStoreLabel || "App Store")}</a></div>`
-                : `<a class="play-link" href="${app.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(words.openStore)}</a>`;
+                ? `<div class="app-store-links"><a class="play-link" href="${app.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(androidLabel)}</a><a class="play-link store-secondary" href="${app.iosUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(app.iosStoreLabel || "iPhone版")}</a></div>`
+                : `<a class="play-link" href="${app.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(androidLabel)}</a>`;
             return `
                 <article class="app-card">
                     <div class="app-card-top">

@@ -130,10 +130,10 @@ const TEXT = {
     },
     ja: {
         brand: "Kamesan App",
-        platformNote: "掲載アプリは、対応するストアからご利用いただけます。",
+        platformNote: "対応する端末は、各アプリのボタンからお選びください。",
         appsTitle: "アプリ一覧",
         newBadge: "New!",
-        openStore: "Google Playで開く",
+        openStore: "Android版",
         supportTitle: "開発を応援する",
         supportText: "アプリを気に入っていただけましたら、PayPalよりご支援いただけるとうれしいです。開発継続の励みになります。",
         supportLink: PAYPAL_LINK_LABEL,
@@ -360,10 +360,26 @@ const TEXT = {
  */
 const APPS = [
     {
+        icon: "icon/wild-ball-carnival.png",
+        url: "https://play.google.com/store/apps/details?id=com.kamesan.wildballcarnival",
+        androidStoreLabel: "Android版",
+        iosUrl: "https://apps.apple.com/jp/app/%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89%E3%83%9C%E3%83%BC%E3%83%AB-%E3%82%AB%E3%83%BC%E3%83%8B%E3%83%90%E3%83%AB-%E3%83%9C%E3%83%BC%E3%83%AB%E8%BB%A2%E3%81%8C%E3%81%97/id6804564053?uo=4",
+        iosStoreLabel: "iPhone版",
+        isNew: true,
+        visibleLanguages: ["ja"],
+        name: {
+            ja: "ワイルドボール・カーニバル：ボール転がし"
+        },
+        description: {
+            ja: "木のコースを傾けてボールをゴールへ導く、3D物理アーケードゲームです。"
+        }
+    },
+    {
         icon: "icon/gomihub.png",
         url: "https://play.google.com/store/apps/details?id=jp.gomihub",
+        androidStoreLabel: "Android版",
         iosUrl: "https://apps.apple.com/jp/app/id6798723298",
-        iosStoreLabel: "App Storeで開く",
+        iosStoreLabel: "iPhone版",
         isNew: true,
         visibleLanguages: ["ja"],
         landingPageUrl: "gomihub/index.html",
