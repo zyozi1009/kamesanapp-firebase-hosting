@@ -734,6 +734,8 @@ const APPS = [
     {
         icon: "icon/zero-padding.png",
         url: "https://play.google.com/store/apps/details?id=zero.pad",
+        iosUrl: "https://apps.apple.com/jp/app/%E3%82%BC%E3%83%AD%E5%9F%8B%E3%82%81-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E5%90%8D%E5%A4%89%E6%9B%B4/id6807441773?uo=4",
+        iosStoreLabel: "iPhone版",
         name: {
             ja: "ゼロ埋め",
             en: "Zero-padding",

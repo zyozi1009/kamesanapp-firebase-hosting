@@ -2,7 +2,7 @@ const CONTACT_ADDRESS = "Kamesan App / Mail: ike147359 [at] yahoo.co.jp";
 
 const POLICY_TEXT = {
     en: {
-        intro: "This policy applies to all Android and iOS mobile apps and related services provided by Kamesan App.\nLast updated: August 7, 2026",
+        intro: "This policy applies to all Android and iOS mobile apps and related services provided by Kamesan App.\nLast updated: September 4, 2026",
         contactTitle: "Contact",
         contactText: "For inquiries about personal data handling, please use the contact address below.",
         policyItems: [
@@ -45,7 +45,7 @@ const POLICY_TEXT = {
         ]
     },
     de: {
-        intro: "Diese Richtlinie gilt für alle mobilen Android- und iOS-Apps und zugehörigen Dienste von Kamesan App.\nLetzte Aktualisierung: 7. August 2026",
+        intro: "Diese Richtlinie gilt für alle mobilen Android- und iOS-Apps und zugehörigen Dienste von Kamesan App.\nLetzte Aktualisierung: 4. September 2026",
         contactTitle: "Kontakt",
         contactText: "Für Anfragen zur Verarbeitung personenbezogener Daten nutzen Sie bitte die unten stehende Kontaktadresse.",
         policyItems: [
@@ -88,7 +88,7 @@ const POLICY_TEXT = {
         ]
     },
     "es-ES": {
-        intro: "Esta política se aplica a todas las aplicaciones móviles Android e iOS y a los servicios relacionados proporcionados por Kamesan App.\nÚltima actualización: 7 de agosto de 2026",
+        intro: "Esta política se aplica a todas las aplicaciones móviles Android e iOS y a los servicios relacionados proporcionados por Kamesan App.\nÚltima actualización: 4 de septiembre de 2026",
         contactTitle: "Contacto",
         contactText: "Para consultas sobre el tratamiento de datos personales, utilice el contacto que figura a continuación.",
         policyItems: [
@@ -131,7 +131,7 @@ const POLICY_TEXT = {
         ]
     },
     "es-419": {
-        intro: "Esta política se aplica a todas las aplicaciones móviles Android e iOS y a los servicios relacionados que ofrece Kamesan App.\nÚltima actualización: 7 de agosto de 2026",
+        intro: "Esta política se aplica a todas las aplicaciones móviles Android e iOS y a los servicios relacionados que ofrece Kamesan App.\nÚltima actualización: 4 de septiembre de 2026",
         contactTitle: "Contacto",
         contactText: "Si tiene consultas sobre el tratamiento de datos personales, utilice el contacto indicado a continuación.",
         policyItems: [
@@ -174,7 +174,7 @@ const POLICY_TEXT = {
         ]
     },
     fr: {
-        intro: "Cette politique s'applique à toutes les applications mobiles Android et iOS et aux services associés fournis par Kamesan App.\nDernière mise à jour : 7 août 2026",
+        intro: "Cette politique s'applique à toutes les applications mobiles Android et iOS et aux services associés fournis par Kamesan App.\nDernière mise à jour : 4 septembre 2026",
         contactTitle: "Contact",
         contactText: "Pour toute question concernant le traitement des données personnelles, veuillez utiliser les coordonnées ci-dessous.",
         policyItems: [
@@ -217,7 +217,7 @@ const POLICY_TEXT = {
         ]
     },
     id: {
-        intro: "Kebijakan ini berlaku untuk semua aplikasi seluler Android dan iOS serta layanan terkait yang disediakan oleh Kamesan App.\nTerakhir diperbarui: 7 Agustus 2026",
+        intro: "Kebijakan ini berlaku untuk semua aplikasi seluler Android dan iOS serta layanan terkait yang disediakan oleh Kamesan App.\nTerakhir diperbarui: 4 September 2026",
         contactTitle: "Kontak",
         contactText: "Untuk pertanyaan mengenai penanganan data pribadi, silakan gunakan kontak di bawah ini.",
         policyItems: [
@@ -260,7 +260,7 @@ const POLICY_TEXT = {
         ]
     },
     ja: {
-        intro: "本ポリシーは、Kamesan App が提供する Android・iOS 向けモバイルアプリおよび関連サービス全体に適用されます。\n最終更新日: 2026年8月7日",
+        intro: "本ポリシーは、Kamesan App が提供する Android・iOS 向けモバイルアプリおよび関連サービス全体に適用されます。\n最終更新日: 2026年9月4日",
         contactTitle: "お問い合せ（受付範囲）",
         contactText: "個人情報の取扱いに関するご連絡は、下記の連絡先をご利用ください。",
         policyItems: [
@@ -303,7 +303,7 @@ const POLICY_TEXT = {
         ]
     },
     ko: {
-        intro: "본 방침은 Kamesan App이 제공하는 모든 Android 및 iOS 모바일 앱과 관련 서비스에 적용됩니다.\n최종 업데이트: 2026년 8월 7일",
+        intro: "본 방침은 Kamesan App이 제공하는 모든 Android 및 iOS 모바일 앱과 관련 서비스에 적용됩니다.\n최종 업데이트: 2026년 9월 4일",
         contactTitle: "문의처",
         contactText: "개인정보 처리에 관한 문의는 아래 연락처를 이용해 주세요.",
         policyItems: [
@@ -346,7 +346,7 @@ const POLICY_TEXT = {
         ]
     },
     "pt-BR": {
-        intro: "Esta política se aplica a todos os aplicativos móveis Android e iOS e serviços relacionados fornecidos pela Kamesan App.\nÚltima atualização: 7 de agosto de 2026",
+        intro: "Esta política se aplica a todos os aplicativos móveis Android e iOS e serviços relacionados fornecidos pela Kamesan App.\nÚltima atualização: 4 de setembro de 2026",
         contactTitle: "Contato",
         contactText: "Para dúvidas sobre o tratamento de dados pessoais, utilize o contato abaixo.",
         policyItems: [
@@ -389,7 +389,7 @@ const POLICY_TEXT = {
         ]
     },
     "zh-CN": {
-        intro: "本政策适用于 Kamesan App 提供的所有 Android 和 iOS 移动应用及相关服务。\n最后更新日期：2026年8月7日",
+        intro: "本政策适用于 Kamesan App 提供的所有 Android 和 iOS 移动应用及相关服务。\n最后更新日期：2026年9月4日",
         contactTitle: "联系方式",
         contactText: "如对个人信息处理有疑问，请使用以下联系方式联系我们。",
         policyItems: [
@@ -432,7 +432,7 @@ const POLICY_TEXT = {
         ]
     },
     "zh-TW": {
-        intro: "本政策適用於 Kamesan App 提供的所有 Android 與 iOS 行動應用程式及相關服務。\n最後更新日期：2026年8月7日",
+        intro: "本政策適用於 Kamesan App 提供的所有 Android 與 iOS 行動應用程式及相關服務。\n最後更新日期：2026年9月4日",
         contactTitle: "聯絡方式",
         contactText: "若您對個人資料處理有疑問，請使用以下聯絡方式與我們聯繫。",
         policyItems: [
@@ -475,7 +475,7 @@ const POLICY_TEXT = {
         ]
     },
     it: {
-        intro: "Questa informativa si applica a tutte le app mobili Android e iOS e ai servizi correlati forniti da Kamesan App.\nUltimo aggiornamento: 7 agosto 2026",
+        intro: "Questa informativa si applica a tutte le app mobili Android e iOS e ai servizi correlati forniti da Kamesan App.\nUltimo aggiornamento: 4 settembre 2026",
         contactTitle: "Contatti",
         contactText: "Per richieste relative al trattamento dei dati personali, si prega di utilizzare il contatto riportato di seguito.",
         policyItems: [
@@ -518,7 +518,7 @@ const POLICY_TEXT = {
         ]
     },
     pl: {
-        intro: "Niniejsza polityka dotyczy wszystkich aplikacji mobilnych na Androida i iOS oraz usług powiązanych świadczonych przez Kamesan App.\nOstatnia aktualizacja: 7 sierpnia 2026 r.",
+        intro: "Niniejsza polityka dotyczy wszystkich aplikacji mobilnych na Androida i iOS oraz usług powiązanych świadczonych przez Kamesan App.\nOstatnia aktualizacja: 4 września 2026 r.",
         contactTitle: "Kontakt",
         contactText: "W sprawach dotyczących przetwarzania danych osobowych prosimy o kontakt pod poniższym adresem.",
         policyItems: [
@@ -561,7 +561,7 @@ const POLICY_TEXT = {
         ]
     },
     ru: {
-        intro: "Настоящая политика распространяется на все мобильные приложения Android и iOS и связанные с ними сервисы, предоставляемые Kamesan App.\nПоследнее обновление: 7 августа 2026 г.",
+        intro: "Настоящая политика распространяется на все мобильные приложения Android и iOS и связанные с ними сервисы, предоставляемые Kamesan App.\nПоследнее обновление: 4 сентября 2026 г.",
         contactTitle: "Контакты",
         contactText: "По вопросам обработки персональных данных используйте контактные данные ниже.",
         policyItems: [
@@ -604,7 +604,7 @@ const POLICY_TEXT = {
         ]
     },
     hi: {
-        intro: "यह नीति Kamesan App द्वारा प्रदान किए जाने वाले सभी Android और iOS मोबाइल ऐप और संबंधित सेवाओं पर लागू होती है।\nअंतिम अद्यतन: 7 अगस्त 2026",
+        intro: "यह नीति Kamesan App द्वारा प्रदान किए जाने वाले सभी Android और iOS मोबाइल ऐप और संबंधित सेवाओं पर लागू होती है।\nअंतिम अद्यतन: 4 सितंबर 2026",
         contactTitle: "संपर्क",
         contactText: "व्यक्तिगत डेटा के प्रबंधन से संबंधित पूछताछ के लिए कृपया नीचे दिया गया संपर्क उपयोग करें।",
         policyItems: [
@@ -647,7 +647,7 @@ const POLICY_TEXT = {
         ]
     },
     tr: {
-        intro: "Bu politika, Kamesan App tarafından sunulan tüm Android ve iOS mobil uygulamaları ve ilgili hizmetler için geçerlidir.\nSon güncelleme: 7 Ağustos 2026",
+        intro: "Bu politika, Kamesan App tarafından sunulan tüm Android ve iOS mobil uygulamaları ve ilgili hizmetler için geçerlidir.\nSon güncelleme: 4 Eylül 2026",
         contactTitle: "İletişim",
         contactText: "Kişisel verilerin işlenmesiyle ilgili sorular için lütfen aşağıdaki iletişim bilgisini kullanın.",
         policyItems: [
@@ -690,7 +690,7 @@ const POLICY_TEXT = {
         ]
     },
     ar: {
-        intro: "تنطبق هذه السياسة على جميع تطبيقات Android وiOS للهواتف المحمولة والخدمات المرتبطة التي تقدمها Kamesan App.\nآخر تحديث: 7 أغسطس 2026",
+        intro: "تنطبق هذه السياسة على جميع تطبيقات Android وiOS للهواتف المحمولة والخدمات المرتبطة التي تقدمها Kamesan App.\nآخر تحديث: 4 سبتمبر 2026",
         contactTitle: "التواصل",
         contactText: "للاستفسارات المتعلقة بالتعامل مع البيانات الشخصية، يُرجى استخدام جهة الاتصال أدناه.",
         policyItems: [
@@ -733,7 +733,7 @@ const POLICY_TEXT = {
         ]
     },
     nl: {
-        intro: "Dit beleid is van toepassing op alle mobiele Android- en iOS-apps en gerelateerde diensten die door Kamesan App worden aangeboden.\nLaatst bijgewerkt: 7 augustus 2026",
+        intro: "Dit beleid is van toepassing op alle mobiele Android- en iOS-apps en gerelateerde diensten die door Kamesan App worden aangeboden.\nLaatst bijgewerkt: 4 september 2026",
         contactTitle: "Contact",
         contactText: "Voor vragen over de verwerking van persoonsgegevens kunt u onderstaande contactgegevens gebruiken.",
         policyItems: [
@@ -776,7 +776,7 @@ const POLICY_TEXT = {
         ]
     },
     vi: {
-        intro: "Chính sách này áp dụng cho tất cả ứng dụng di động Android và iOS cùng các dịch vụ liên quan do Kamesan App cung cấp.\nCập nhật lần cuối: 7 tháng 8 năm 2026",
+        intro: "Chính sách này áp dụng cho tất cả ứng dụng di động Android và iOS cùng các dịch vụ liên quan do Kamesan App cung cấp.\nCập nhật lần cuối: 4 tháng 9 năm 2026",
         contactTitle: "Liên hệ",
         contactText: "Nếu có thắc mắc về việc xử lý dữ liệu cá nhân, vui lòng sử dụng thông tin liên hệ bên dưới.",
         policyItems: [
@@ -819,7 +819,7 @@ const POLICY_TEXT = {
         ]
     },
     th: {
-        intro: "นโยบายนี้ใช้กับแอปมือถือ Android และ iOS และบริการที่เกี่ยวข้องทั้งหมดที่ Kamesan App ให้บริการ\nอัปเดตล่าสุด: 7 สิงหาคม 2026",
+        intro: "นโยบายนี้ใช้กับแอปมือถือ Android และ iOS และบริการที่เกี่ยวข้องทั้งหมดที่ Kamesan App ให้บริการ\nอัปเดตล่าสุด: 4 กันยายน 2026",
         contactTitle: "ติดต่อ",
         contactText: "หากมีข้อสงสัยเกี่ยวกับการจัดการข้อมูลส่วนบุคคล โปรดใช้ช่องทางติดต่อด้านล่าง",
         policyItems: [
@@ -910,9 +910,93 @@ const GOMIHUB_POLICY_APPENDIX = {
     ]
 };
 
+const SQUARECROP_POLICY_APPENDIX = {
+    en: [{
+        title: "Additional Notice for Batch Square Crop",
+        text: "This notice applies to Batch Square Crop (Android package: kamesan.squarecrop). Photos selected in the app are processed on the device for cropping, adding margins, previewing, and exporting. The image files and their visual content are not uploaded to servers operated by Kamesan App. Exported images are saved to device storage.\nThe app uses Google Mobile Ads / AdMob and Google's User Messaging Platform (UMP) for advertising and consent management. Under Google's policies, these services may process device and advertising identifiers, IP address and approximate location inferred from it, ad impressions, clicks and other interactions, consent choices, and diagnostic information. Advertising communications are separate from photo processing; the app does not provide selected photos to these advertising services."
+    }],
+    de: [{
+        title: "Zusätzlicher Hinweis für Batch Square Crop",
+        text: "Dieser Hinweis gilt für Batch Square Crop (Android-Paket: kamesan.squarecrop). In der App ausgewählte Fotos werden auf dem Gerät verarbeitet, um sie zuzuschneiden, Ränder hinzuzufügen, eine Vorschau anzuzeigen und sie zu exportieren. Die Bilddateien und ihre visuellen Inhalte werden nicht auf Server von Kamesan App hochgeladen. Exportierte Bilder werden im Gerätespeicher gespeichert.\nDie App verwendet Google Mobile Ads / AdMob und die User Messaging Platform (UMP) von Google für Werbung und Einwilligungsverwaltung. Gemäß den Richtlinien von Google können diese Dienste Geräte- und Werbekennungen, die IP-Adresse und den daraus abgeleiteten ungefähren Standort, Anzeigenimpressionen, Klicks und andere Interaktionen, Einwilligungsentscheidungen sowie Diagnoseinformationen verarbeiten. Die Werbekommunikation ist von der Fotoverarbeitung getrennt; die App stellt diesen Werbediensten keine ausgewählten Fotos bereit."
+    }],
+    "es-ES": [{
+        title: "Aviso adicional para Batch Square Crop",
+        text: "Este aviso se aplica a Batch Square Crop (paquete de Android: kamesan.squarecrop). Las fotos seleccionadas en la app se procesan en el dispositivo para recortarlas, añadir márgenes, previsualizarlas y exportarlas. Los archivos de imagen y su contenido visual no se suben a servidores operados por Kamesan App. Las imágenes exportadas se guardan en el almacenamiento del dispositivo.\nLa app utiliza Google Mobile Ads / AdMob y la User Messaging Platform (UMP) de Google para la publicidad y la gestión del consentimiento. De acuerdo con las políticas de Google, estos servicios pueden tratar identificadores del dispositivo y publicitarios, la dirección IP y la ubicación aproximada deducida de ella, impresiones de anuncios, clics y otras interacciones, decisiones de consentimiento e información de diagnóstico. Las comunicaciones publicitarias están separadas del procesamiento de las fotos; la app no proporciona las fotos seleccionadas a estos servicios publicitarios."
+    }],
+    "es-419": [{
+        title: "Aviso adicional para Batch Square Crop",
+        text: "Este aviso se aplica a Batch Square Crop (paquete de Android: kamesan.squarecrop). Las fotos seleccionadas en la app se procesan en el dispositivo para recortarlas, agregar márgenes, previsualizarlas y exportarlas. Los archivos de imagen y su contenido visual no se suben a servidores operados por Kamesan App. Las imágenes exportadas se guardan en el almacenamiento del dispositivo.\nLa app utiliza Google Mobile Ads / AdMob y la User Messaging Platform (UMP) de Google para publicidad y gestión del consentimiento. De acuerdo con las políticas de Google, estos servicios pueden procesar identificadores del dispositivo y publicitarios, la dirección IP y la ubicación aproximada inferida de ella, impresiones de anuncios, clics y otras interacciones, decisiones de consentimiento e información de diagnóstico. Las comunicaciones publicitarias están separadas del procesamiento de las fotos; la app no proporciona las fotos seleccionadas a estos servicios publicitarios."
+    }],
+    fr: [{
+        title: "Avis complémentaire pour Batch Square Crop",
+        text: "Le présent avis s'applique à Batch Square Crop (package Android : kamesan.squarecrop). Les photos sélectionnées dans l'application sont traitées sur l'appareil pour le recadrage, l'ajout de marges, l'aperçu et l'exportation. Les fichiers image et leur contenu visuel ne sont pas téléversés vers des serveurs exploités par Kamesan App. Les images exportées sont enregistrées dans le stockage de l'appareil.\nL'application utilise Google Mobile Ads / AdMob et la User Messaging Platform (UMP) de Google pour la publicité et la gestion du consentement. Conformément aux règles de Google, ces services peuvent traiter les identifiants de l'appareil et publicitaires, l'adresse IP et la localisation approximative qui en est déduite, les impressions publicitaires, les clics et autres interactions, les choix de consentement et les informations de diagnostic. Les communications publicitaires sont distinctes du traitement des photos ; l'application ne fournit pas les photos sélectionnées à ces services publicitaires."
+    }],
+    id: [{
+        title: "Pemberitahuan Tambahan untuk Batch Square Crop",
+        text: "Pemberitahuan ini berlaku untuk Batch Square Crop (paket Android: kamesan.squarecrop). Foto yang dipilih di aplikasi diproses di perangkat untuk memotong, menambahkan margin, melihat pratinjau, dan mengekspor. File gambar dan konten visualnya tidak diunggah ke server yang dioperasikan oleh Kamesan App. Gambar hasil ekspor disimpan di penyimpanan perangkat.\nAplikasi menggunakan Google Mobile Ads / AdMob dan User Messaging Platform (UMP) Google untuk iklan dan pengelolaan persetujuan. Berdasarkan kebijakan Google, layanan ini dapat memproses pengenal perangkat dan iklan, alamat IP dan perkiraan lokasi yang disimpulkan darinya, tayangan iklan, klik dan interaksi lainnya, pilihan persetujuan, serta informasi diagnostik. Komunikasi iklan terpisah dari pemrosesan foto; aplikasi tidak memberikan foto yang dipilih kepada layanan iklan tersebut."
+    }],
+    ja: [{
+        title: "「Batch Square Crop」に関する補足",
+        text: "本補足は「Batch Square Crop」（Android パッケージ名: kamesan.squarecrop）に適用されます。本アプリで選択した写真は、切り抜き、余白追加、プレビューおよび書き出しのために端末内で処理されます。画像ファイルおよびその画像内容を、Kamesan App が運営するサーバーへアップロードすることはありません。書き出した画像は端末のストレージへ保存されます。\n本アプリは、広告配信および同意管理のために Google Mobile Ads / AdMob と Google User Messaging Platform（UMP）を利用します。これらのサービスでは、Google のポリシーに基づき、端末識別子・広告識別子、IPアドレスおよびそこから推定されるおおよその位置情報、広告の表示・クリック等の操作情報、同意の選択、診断情報が処理される場合があります。広告に関する通信は写真処理とは独立しており、本アプリが選択した写真をこれらの広告サービスへ提供することはありません。"
+    }],
+    ko: [{
+        title: "Batch Square Crop 추가 안내",
+        text: "이 안내는 Batch Square Crop(Android 패키지: kamesan.squarecrop)에 적용됩니다. 앱에서 선택한 사진은 자르기, 여백 추가, 미리보기 및 내보내기를 위해 기기 내에서 처리됩니다. 이미지 파일과 그 시각적 내용은 Kamesan App이 운영하는 서버에 업로드되지 않습니다. 내보낸 이미지는 기기 저장소에 저장됩니다.\n앱은 광고 및 동의 관리를 위해 Google Mobile Ads / AdMob과 Google User Messaging Platform(UMP)을 사용합니다. Google 정책에 따라 이러한 서비스는 기기 및 광고 식별자, IP 주소와 이를 통해 추정되는 대략적인 위치, 광고 노출, 클릭 및 기타 상호작용, 동의 선택, 진단 정보를 처리할 수 있습니다. 광고 통신은 사진 처리와 분리되어 있으며, 앱은 선택한 사진을 이러한 광고 서비스에 제공하지 않습니다."
+    }],
+    "pt-BR": [{
+        title: "Aviso adicional para o Batch Square Crop",
+        text: "Este aviso se aplica ao Batch Square Crop (pacote Android: kamesan.squarecrop). As fotos selecionadas no app são processadas no dispositivo para recorte, adição de margens, visualização e exportação. Os arquivos de imagem e seu conteúdo visual não são enviados para servidores operados pela Kamesan App. As imagens exportadas são salvas no armazenamento do dispositivo.\nO app utiliza o Google Mobile Ads / AdMob e a User Messaging Platform (UMP) do Google para publicidade e gerenciamento de consentimento. De acordo com as políticas do Google, esses serviços podem processar identificadores do dispositivo e de publicidade, endereço IP e localização aproximada inferida a partir dele, impressões de anúncios, cliques e outras interações, escolhas de consentimento e informações de diagnóstico. As comunicações de publicidade são separadas do processamento das fotos; o app não fornece as fotos selecionadas a esses serviços de publicidade."
+    }],
+    "zh-CN": [{
+        title: "Batch Square Crop 补充说明",
+        text: "本说明适用于 Batch Square Crop（Android 软件包：kamesan.squarecrop）。在应用中选择的照片仅在设备上进行裁剪、添加留白、预览和导出处理。图片文件及其画面内容不会上传至 Kamesan App 运营的服务器。导出的图片保存在设备存储空间中。\n本应用使用 Google Mobile Ads / AdMob 和 Google User Messaging Platform（UMP）进行广告投放和同意管理。根据 Google 的政策，这些服务可能会处理设备和广告标识符、IP 地址及由此推断的大致位置、广告展示、点击及其他互动、同意选择和诊断信息。广告通信与照片处理相互独立；本应用不会向这些广告服务提供所选照片。"
+    }],
+    "zh-TW": [{
+        title: "Batch Square Crop 補充說明",
+        text: "本說明適用於 Batch Square Crop（Android 套件：kamesan.squarecrop）。在應用程式中選取的照片僅在裝置上進行裁切、加入留白、預覽及匯出處理。圖片檔案及其影像內容不會上傳至 Kamesan App 營運的伺服器。匯出的圖片會儲存在裝置儲存空間中。\n本應用程式使用 Google Mobile Ads / AdMob 及 Google User Messaging Platform（UMP）進行廣告投放與同意管理。依照 Google 的政策，這些服務可能會處理裝置與廣告識別碼、IP 位址及由此推測的大致位置、廣告曝光、點擊及其他互動、同意選擇與診斷資訊。廣告通訊與照片處理相互獨立；本應用程式不會向這些廣告服務提供所選照片。"
+    }],
+    it: [{
+        title: "Informativa aggiuntiva per Batch Square Crop",
+        text: "Questa informativa si applica a Batch Square Crop (pacchetto Android: kamesan.squarecrop). Le foto selezionate nell'app vengono elaborate sul dispositivo per il ritaglio, l'aggiunta di margini, l'anteprima e l'esportazione. I file di immagine e il loro contenuto visivo non vengono caricati su server gestiti da Kamesan App. Le immagini esportate vengono salvate nella memoria del dispositivo.\nL'app utilizza Google Mobile Ads / AdMob e la User Messaging Platform (UMP) di Google per la pubblicità e la gestione del consenso. In base alle norme di Google, questi servizi possono trattare identificatori del dispositivo e pubblicitari, indirizzo IP e posizione approssimativa da esso dedotta, impressioni pubblicitarie, clic e altre interazioni, scelte relative al consenso e informazioni diagnostiche. Le comunicazioni pubblicitarie sono separate dall'elaborazione delle foto; l'app non fornisce le foto selezionate a questi servizi pubblicitari."
+    }],
+    pl: [{
+        title: "Dodatkowa informacja dotycząca Batch Square Crop",
+        text: "Niniejsza informacja dotyczy aplikacji Batch Square Crop (pakiet Android: kamesan.squarecrop). Zdjęcia wybrane w aplikacji są przetwarzane na urządzeniu w celu kadrowania, dodawania marginesów, podglądu i eksportu. Pliki obrazów ani ich treść wizualna nie są przesyłane na serwery obsługiwane przez Kamesan App. Wyeksportowane obrazy są zapisywane w pamięci urządzenia.\nAplikacja korzysta z Google Mobile Ads / AdMob i Google User Messaging Platform (UMP) do wyświetlania reklam i zarządzania zgodami. Zgodnie z zasadami Google usługi te mogą przetwarzać identyfikatory urządzenia i identyfikatory reklamowe, adres IP i wywnioskowaną z niego przybliżoną lokalizację, wyświetlenia reklam, kliknięcia i inne interakcje, wybory dotyczące zgody oraz informacje diagnostyczne. Komunikacja reklamowa jest oddzielona od przetwarzania zdjęć; aplikacja nie przekazuje wybranych zdjęć tym usługom reklamowym."
+    }],
+    ru: [{
+        title: "Дополнительное уведомление для Batch Square Crop",
+        text: "Настоящее уведомление относится к Batch Square Crop (пакет Android: kamesan.squarecrop). Выбранные в приложении фотографии обрабатываются на устройстве для обрезки, добавления полей, предварительного просмотра и экспорта. Файлы изображений и их визуальное содержимое не загружаются на серверы, управляемые Kamesan App. Экспортированные изображения сохраняются в памяти устройства.\nПриложение использует Google Mobile Ads / AdMob и Google User Messaging Platform (UMP) для показа рекламы и управления согласием. В соответствии с правилами Google эти сервисы могут обрабатывать идентификаторы устройства и рекламные идентификаторы, IP-адрес и определённое по нему приблизительное местоположение, показы рекламы, клики и другие взаимодействия, выбор согласия и диагностическую информацию. Рекламный обмен данными отделён от обработки фотографий; приложение не передаёт выбранные фотографии этим рекламным сервисам."
+    }],
+    hi: [{
+        title: "Batch Square Crop के लिए अतिरिक्त सूचना",
+        text: "यह सूचना Batch Square Crop (Android पैकेज: kamesan.squarecrop) पर लागू होती है। ऐप में चुनी गई फ़ोटो को क्रॉप करने, मार्जिन जोड़ने, पूर्वावलोकन और निर्यात के लिए डिवाइस पर ही संसाधित किया जाता है। इमेज फ़ाइलें और उनकी दृश्य सामग्री Kamesan App द्वारा संचालित सर्वर पर अपलोड नहीं की जातीं। निर्यात की गई इमेज डिवाइस स्टोरेज में सहेजी जाती हैं।\nऐप विज्ञापन और सहमति प्रबंधन के लिए Google Mobile Ads / AdMob और Google User Messaging Platform (UMP) का उपयोग करता है। Google की नीतियों के अनुसार, ये सेवाएँ डिवाइस और विज्ञापन पहचानकर्ता, IP पता और उससे अनुमानित मोटा स्थान, विज्ञापन इंप्रेशन, क्लिक और अन्य इंटरैक्शन, सहमति के विकल्प तथा निदान संबंधी जानकारी संसाधित कर सकती हैं। विज्ञापन संचार फ़ोटो संसाधन से अलग है; ऐप चुनी गई फ़ोटो इन विज्ञापन सेवाओं को नहीं देता।"
+    }],
+    tr: [{
+        title: "Batch Square Crop için Ek Bildirim",
+        text: "Bu bildirim Batch Square Crop (Android paketi: kamesan.squarecrop) için geçerlidir. Uygulamada seçilen fotoğraflar kırpma, kenar boşluğu ekleme, önizleme ve dışa aktarma amacıyla cihazda işlenir. Görüntü dosyaları ve görsel içerikleri Kamesan App tarafından işletilen sunuculara yüklenmez. Dışa aktarılan görüntüler cihaz depolama alanına kaydedilir.\nUygulama, reklam ve izin yönetimi için Google Mobile Ads / AdMob ile Google User Messaging Platform'u (UMP) kullanır. Google politikaları uyarınca bu hizmetler cihaz ve reklam tanımlayıcılarını, IP adresini ve bundan çıkarılan yaklaşık konumu, reklam gösterimlerini, tıklamaları ve diğer etkileşimleri, izin tercihlerini ve tanılama bilgilerini işleyebilir. Reklam iletişimi fotoğraf işlemeden ayrıdır; uygulama seçilen fotoğrafları bu reklam hizmetlerine sağlamaz."
+    }],
+    ar: [{
+        title: "إشعار إضافي لتطبيق Batch Square Crop",
+        text: "ينطبق هذا الإشعار على تطبيق Batch Square Crop (حزمة Android: kamesan.squarecrop). تتم معالجة الصور المحددة في التطبيق على الجهاز لأغراض القص وإضافة الهوامش والمعاينة والتصدير. لا يتم تحميل ملفات الصور أو محتواها المرئي إلى خوادم تديرها Kamesan App. تُحفظ الصور المصدّرة في مساحة تخزين الجهاز.\nيستخدم التطبيق Google Mobile Ads / AdMob وGoogle User Messaging Platform (UMP) للإعلانات وإدارة الموافقة. ووفقًا لسياسات Google، قد تعالج هذه الخدمات معرّفات الجهاز والإعلانات وعنوان IP والموقع التقريبي المستنتج منه ومرات ظهور الإعلانات والنقرات والتفاعلات الأخرى وخيارات الموافقة ومعلومات التشخيص. اتصالات الإعلانات منفصلة عن معالجة الصور؛ ولا يزوّد التطبيق خدمات الإعلانات هذه بالصور المحددة."
+    }],
+    nl: [{
+        title: "Aanvullende kennisgeving voor Batch Square Crop",
+        text: "Deze kennisgeving is van toepassing op Batch Square Crop (Android-pakket: kamesan.squarecrop). Foto's die in de app worden geselecteerd, worden op het apparaat verwerkt voor bijsnijden, het toevoegen van marges, voorvertoning en export. De afbeeldingsbestanden en hun visuele inhoud worden niet geüpload naar servers die door Kamesan App worden beheerd. Geëxporteerde afbeeldingen worden opgeslagen in de opslag van het apparaat.\nDe app gebruikt Google Mobile Ads / AdMob en het Google User Messaging Platform (UMP) voor advertenties en toestemmingsbeheer. Volgens het beleid van Google kunnen deze diensten apparaat- en advertentie-ID's, het IP-adres en de daaruit afgeleide globale locatie, advertentievertoningen, klikken en andere interacties, toestemmingskeuzes en diagnostische informatie verwerken. Advertentiecommunicatie staat los van de fotoverwerking; de app verstrekt de geselecteerde foto's niet aan deze advertentiediensten."
+    }],
+    vi: [{
+        title: "Thông báo bổ sung cho Batch Square Crop",
+        text: "Thông báo này áp dụng cho Batch Square Crop (gói Android: kamesan.squarecrop). Ảnh được chọn trong ứng dụng được xử lý ngay trên thiết bị để cắt, thêm lề, xem trước và xuất. Tệp ảnh và nội dung hình ảnh không được tải lên máy chủ do Kamesan App vận hành. Ảnh đã xuất được lưu vào bộ nhớ thiết bị.\nỨng dụng sử dụng Google Mobile Ads / AdMob và Google User Messaging Platform (UMP) để quảng cáo và quản lý sự đồng ý. Theo chính sách của Google, các dịch vụ này có thể xử lý mã định danh thiết bị và quảng cáo, địa chỉ IP và vị trí gần đúng được suy ra từ đó, lượt hiển thị quảng cáo, lượt nhấp và các tương tác khác, lựa chọn đồng ý và thông tin chẩn đoán. Việc truyền dữ liệu quảng cáo tách biệt với quá trình xử lý ảnh; ứng dụng không cung cấp ảnh đã chọn cho các dịch vụ quảng cáo này."
+    }],
+    th: [{
+        title: "ประกาศเพิ่มเติมสำหรับ Batch Square Crop",
+        text: "ประกาศนี้ใช้กับ Batch Square Crop (แพ็กเกจ Android: kamesan.squarecrop) รูปภาพที่เลือกในแอปจะได้รับการประมวลผลบนอุปกรณ์เพื่อครอบตัด เพิ่มขอบ แสดงตัวอย่าง และส่งออก ไฟล์รูปภาพและเนื้อหาภาพจะไม่ถูกอัปโหลดไปยังเซิร์ฟเวอร์ที่ดำเนินการโดย Kamesan App รูปภาพที่ส่งออกจะบันทึกไว้ในพื้นที่จัดเก็บของอุปกรณ์\nแอปใช้ Google Mobile Ads / AdMob และ Google User Messaging Platform (UMP) สำหรับโฆษณาและการจัดการความยินยอม ตามนโยบายของ Google บริการเหล่านี้อาจประมวลผลตัวระบุอุปกรณ์และโฆษณา ที่อยู่ IP และตำแหน่งโดยประมาณที่อนุมานจากข้อมูลดังกล่าว การแสดงผลโฆษณา การคลิกและการโต้ตอบอื่น ๆ ตัวเลือกความยินยอม และข้อมูลการวินิจฉัย การสื่อสารเพื่อการโฆษณาแยกจากการประมวลผลรูปภาพ และแอปจะไม่ส่งรูปภาพที่เลือกให้แก่บริการโฆษณาเหล่านี้"
+    }]
+};
+
 for (const [language, words] of Object.entries(POLICY_TEXT)) {
     words.policyItems = [
         ...words.policyItems,
-        ...(GOMIHUB_POLICY_APPENDIX[language] || GOMIHUB_POLICY_APPENDIX.en)
+        ...(GOMIHUB_POLICY_APPENDIX[language] || GOMIHUB_POLICY_APPENDIX.en),
+        ...(SQUARECROP_POLICY_APPENDIX[language] || SQUARECROP_POLICY_APPENDIX.en)
     ];
 }
